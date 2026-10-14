@@ -37,6 +37,10 @@ This extracts audio, makes a contact sheet per video in `<job>/frames/`, copies 
 
 Check for mirrored footage: if signs or text in the background read backwards, set `"hflip": true` in `job.json`.
 
+Check for sideways footage: a portrait-sized file (480x854) whose speaker lies on their side was filmed landscape. Set `"transpose": 2` in `job.json` (head pointing right; use 1 if it points left). Such footage cannot fill a vertical frame, so ask the user; for long videos the usual answer is `"landscape": true`, a 1920x1080 YouTube video with the card on the right and captions at the bottom.
+
+Check for one recording split into parts: Snapchat cuts at 120 s, so several clips of exactly 120.0 s plus one shorter clip are one video. Find the order from the speech at each seam (the save time in `creation_time` is a hint). Render each part as its own vid (start parts 2 onward with a card at 0), then join them without re-encoding: `ffmpeg -f concat -safe 0 -i parts.txt -c copy -movflags +faststart out.mp4`.
+
 Crop stray artefacts off supplied images with ffmpeg before using them (a watermark blob in a corner, a stray line, a big empty margin).
 
 ### 2. Transcribe

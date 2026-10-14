@@ -9,7 +9,7 @@
       count maps word for word ('_' drops a word, '~' joins two in one slot);
       otherwise words are matched up and gaps spread evenly.
 
-  captions.py ass <chunks.tsv> <whisper.json> <out.ass> [--offset S]
+  captions.py ass <chunks.tsv> <whisper.json> <out.ass> [--offset S] [--landscape]
       Build an ASS file with the active word highlighted. Word timing comes from
       the whisper words inside each chunk when the word count still matches the
       edited text, otherwise it is spread across the chunk by word length.
@@ -116,7 +116,7 @@ def ts(t):
     return f"{cs // 360000}:{cs // 6000 % 60:02d}:{cs // 100 % 60:02d}.{cs % 100:02d}"
 
 
-def ass(chunks_tsv, whisper_json, out_ass, offset=0.0):
+def ass(chunks_tsv, whisper_json, out_ass, offset=0.0, landscape=False):
     words = load_words(whisper_json)
     chunks = []
     for line in Path(chunks_tsv).read_text(encoding="utf-8").splitlines():
@@ -148,7 +148,10 @@ def ass(chunks_tsv, whisper_json, out_ass, offset=0.0):
             if b <= 0 or b - a < 0.01:
                 continue
             events.append(f"Dialogue: 0,{ts(a)},{ts(b)},Cap,,0,0,0,,{' '.join(parts)}")
-    Path(out_ass).write_text(HEADER + "\n".join(events) + "\n", encoding="utf-8")
+    header = HEADER
+    if landscape:   # 1920x1080 frame, captions near the bottom edge
+        header = header.replace("PlayResX: 1080\nPlayResY: 1920", "PlayResX: 1920\nPlayResY: 1080").replace(",772,1", ",70,1")
+    Path(out_ass).write_text(header + "\n".join(events) + "\n", encoding="utf-8")
     print(f"{len(chunks)} captions, {len(events)} events -> {out_ass}")
 
 
@@ -159,6 +162,9 @@ if __name__ == "__main__":
         i = args.index("--offset")
         off = float(args[i + 1])
         del args[i:i + 2]
+    land = "--landscape" in args
+    if land:
+        args.remove("--landscape")
     if not args:
         sys.exit(__doc__)
     if args[0] == "dump":
@@ -166,6 +172,6 @@ if __name__ == "__main__":
     elif args[0] == "align":
         align(args[1], args[2], args[3])
     elif args[0] == "ass":
-        ass(args[1], args[2], args[3], off)
+        ass(args[1], args[2], args[3], off, land)
     else:
         sys.exit(__doc__)
