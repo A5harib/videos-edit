@@ -14,6 +14,15 @@ instagram/5 - DAMAC Sorrento and DAMAC Islands 2 townhouses.mp4.part02   (43 MB)
 
 The parts are plain binary slices, not playable videos on their own. Joining them in order gives back the original byte for byte (checked with `cmp` before the push).
 
+## Added 2026-10-16
+
+Two more files went over the limit and got the same split:
+
+- `instagram/7 - Binghatti Wraith, Skyterraces and Skyflame.mp4` (356,017,145 bytes), stored as `.part00` to `.part03`
+- `job4/parts/p3.mp4` (174,766,974 bytes), stored as `.part00` and `.part01`
+
+Rebuild them the same way: `cat "<file>".part* > "<file>"`.
+
 ## Rebuild the video
 
 Git Bash, macOS or Linux:
