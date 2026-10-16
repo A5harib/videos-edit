@@ -1,0 +1,352 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat ExtraBold,78,&H00FFFFFF,&H00FFFFFF,&H00101010,&H96000000,0,0,0,0,100,100,0,0,1,7,2,2,60,60,781,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.05,0:00:00.67,Cap,,0,0,0,,{\1c&H0038C8FF&}Hello {\1c&H00FFFFFF&}Assalamu {\1c&H00FFFFFF&}Alaikum {\1c&H00FFFFFF&}So
+Dialogue: 0,0:00:00.67,0:00:01.01,Cap,,0,0,0,,{\1c&H00FFFFFF&}Hello {\1c&H0038C8FF&}Assalamu {\1c&H00FFFFFF&}Alaikum {\1c&H00FFFFFF&}So
+Dialogue: 0,0:00:01.01,0:00:01.43,Cap,,0,0,0,,{\1c&H00FFFFFF&}Hello {\1c&H00FFFFFF&}Assalamu {\1c&H0038C8FF&}Alaikum {\1c&H00FFFFFF&}So
+Dialogue: 0,0:00:01.43,0:00:02.07,Cap,,0,0,0,,{\1c&H00FFFFFF&}Hello {\1c&H00FFFFFF&}Assalamu {\1c&H00FFFFFF&}Alaikum {\1c&H0038C8FF&}So
+Dialogue: 0,0:00:02.07,0:00:02.45,Cap,,0,0,0,,{\1c&H0038C8FF&}aaj {\1c&H00FFFFFF&}main {\1c&H00FFFFFF&}ek {\1c&H00FFFFFF&}video
+Dialogue: 0,0:00:02.45,0:00:02.59,Cap,,0,0,0,,{\1c&H00FFFFFF&}aaj {\1c&H0038C8FF&}main {\1c&H00FFFFFF&}ek {\1c&H00FFFFFF&}video
+Dialogue: 0,0:00:02.59,0:00:02.79,Cap,,0,0,0,,{\1c&H00FFFFFF&}aaj {\1c&H00FFFFFF&}main {\1c&H0038C8FF&}ek {\1c&H00FFFFFF&}video
+Dialogue: 0,0:00:02.79,0:00:03.11,Cap,,0,0,0,,{\1c&H00FFFFFF&}aaj {\1c&H00FFFFFF&}main {\1c&H00FFFFFF&}ek {\1c&H0038C8FF&}video
+Dialogue: 0,0:00:03.11,0:00:03.30,Cap,,0,0,0,,{\1c&H0038C8FF&}bana {\1c&H00FFFFFF&}raha {\1c&H00FFFFFF&}hoon
+Dialogue: 0,0:00:03.30,0:00:03.48,Cap,,0,0,0,,{\1c&H00FFFFFF&}bana {\1c&H0038C8FF&}raha {\1c&H00FFFFFF&}hoon
+Dialogue: 0,0:00:03.48,0:00:03.67,Cap,,0,0,0,,{\1c&H00FFFFFF&}bana {\1c&H00FFFFFF&}raha {\1c&H0038C8FF&}hoon
+Dialogue: 0,0:00:03.67,0:00:04.05,Cap,,0,0,0,,{\1c&H0038C8FF&}jis {\1c&H00FFFFFF&}ke {\1c&H00FFFFFF&}andar {\1c&H00FFFFFF&}poori
+Dialogue: 0,0:00:04.05,0:00:04.21,Cap,,0,0,0,,{\1c&H00FFFFFF&}jis {\1c&H0038C8FF&}ke {\1c&H00FFFFFF&}andar {\1c&H00FFFFFF&}poori
+Dialogue: 0,0:00:04.21,0:00:04.47,Cap,,0,0,0,,{\1c&H00FFFFFF&}jis {\1c&H00FFFFFF&}ke {\1c&H0038C8FF&}andar {\1c&H00FFFFFF&}poori
+Dialogue: 0,0:00:04.47,0:00:04.71,Cap,,0,0,0,,{\1c&H00FFFFFF&}jis {\1c&H00FFFFFF&}ke {\1c&H00FFFFFF&}andar {\1c&H0038C8FF&}poori
+Dialogue: 0,0:00:04.71,0:00:05.05,Cap,,0,0,0,,{\1c&H0038C8FF&}detail {\1c&H00FFFFFF&}se {\1c&H00FFFFFF&}main
+Dialogue: 0,0:00:05.05,0:00:05.15,Cap,,0,0,0,,{\1c&H00FFFFFF&}detail {\1c&H0038C8FF&}se {\1c&H00FFFFFF&}main
+Dialogue: 0,0:00:05.15,0:00:05.27,Cap,,0,0,0,,{\1c&H00FFFFFF&}detail {\1c&H00FFFFFF&}se {\1c&H0038C8FF&}main
+Dialogue: 0,0:00:05.27,0:00:05.65,Cap,,0,0,0,,{\1c&H0038C8FF&}bataun {\1c&H00FFFFFF&}ga {\1c&H00FFFFFF&}Golden
+Dialogue: 0,0:00:05.65,0:00:05.85,Cap,,0,0,0,,{\1c&H00FFFFFF&}bataun {\1c&H0038C8FF&}ga {\1c&H00FFFFFF&}Golden
+Dialogue: 0,0:00:05.85,0:00:06.15,Cap,,0,0,0,,{\1c&H00FFFFFF&}bataun {\1c&H00FFFFFF&}ga {\1c&H0038C8FF&}Golden
+Dialogue: 0,0:00:06.15,0:00:06.47,Cap,,0,0,0,,{\1c&H0038C8FF&}Visa {\1c&H00FFFFFF&}kya {\1c&H00FFFFFF&}hai
+Dialogue: 0,0:00:06.47,0:00:06.73,Cap,,0,0,0,,{\1c&H00FFFFFF&}Visa {\1c&H0038C8FF&}kya {\1c&H00FFFFFF&}hai
+Dialogue: 0,0:00:06.73,0:00:06.89,Cap,,0,0,0,,{\1c&H00FFFFFF&}Visa {\1c&H00FFFFFF&}kya {\1c&H0038C8FF&}hai
+Dialogue: 0,0:00:06.89,0:00:07.35,Cap,,0,0,0,,{\1c&H0038C8FF&}Investor {\1c&H00FFFFFF&}Visa {\1c&H00FFFFFF&}kya {\1c&H00FFFFFF&}hai
+Dialogue: 0,0:00:07.35,0:00:07.61,Cap,,0,0,0,,{\1c&H00FFFFFF&}Investor {\1c&H0038C8FF&}Visa {\1c&H00FFFFFF&}kya {\1c&H00FFFFFF&}hai
+Dialogue: 0,0:00:07.61,0:00:07.87,Cap,,0,0,0,,{\1c&H00FFFFFF&}Investor {\1c&H00FFFFFF&}Visa {\1c&H0038C8FF&}kya {\1c&H00FFFFFF&}hai
+Dialogue: 0,0:00:07.87,0:00:08.03,Cap,,0,0,0,,{\1c&H00FFFFFF&}Investor {\1c&H00FFFFFF&}Visa {\1c&H00FFFFFF&}kya {\1c&H0038C8FF&}hai
+Dialogue: 0,0:00:08.03,0:00:08.21,Cap,,0,0,0,,{\1c&H0038C8FF&}aap {\1c&H00FFFFFF&}isay {\1c&H00FFFFFF&}kaise
+Dialogue: 0,0:00:08.21,0:00:08.39,Cap,,0,0,0,,{\1c&H00FFFFFF&}aap {\1c&H0038C8FF&}isay {\1c&H00FFFFFF&}kaise
+Dialogue: 0,0:00:08.39,0:00:08.69,Cap,,0,0,0,,{\1c&H00FFFFFF&}aap {\1c&H00FFFFFF&}isay {\1c&H0038C8FF&}kaise
+Dialogue: 0,0:00:08.69,0:00:08.95,Cap,,0,0,0,,{\1c&H0038C8FF&}hasil {\1c&H00FFFFFF&}kar {\1c&H00FFFFFF&}sakte {\1c&H00FFFFFF&}hain
+Dialogue: 0,0:00:08.95,0:00:09.07,Cap,,0,0,0,,{\1c&H00FFFFFF&}hasil {\1c&H0038C8FF&}kar {\1c&H00FFFFFF&}sakte {\1c&H00FFFFFF&}hain
+Dialogue: 0,0:00:09.07,0:00:09.37,Cap,,0,0,0,,{\1c&H00FFFFFF&}hasil {\1c&H00FFFFFF&}kar {\1c&H0038C8FF&}sakte {\1c&H00FFFFFF&}hain
+Dialogue: 0,0:00:09.37,0:00:09.51,Cap,,0,0,0,,{\1c&H00FFFFFF&}hasil {\1c&H00FFFFFF&}kar {\1c&H00FFFFFF&}sakte {\1c&H0038C8FF&}hain
+Dialogue: 0,0:00:09.51,0:00:10.27,Cap,,0,0,0,,{\1c&H0038C8FF&}Golden {\1c&H00FFFFFF&}Visa {\1c&H00FFFFFF&}ko
+Dialogue: 0,0:00:10.27,0:00:10.53,Cap,,0,0,0,,{\1c&H00FFFFFF&}Golden {\1c&H0038C8FF&}Visa {\1c&H00FFFFFF&}ko
+Dialogue: 0,0:00:10.53,0:00:10.65,Cap,,0,0,0,,{\1c&H00FFFFFF&}Golden {\1c&H00FFFFFF&}Visa {\1c&H0038C8FF&}ko
+Dialogue: 0,0:00:10.65,0:00:10.99,Cap,,0,0,0,,{\1c&H0038C8FF&}lene {\1c&H00FFFFFF&}ke {\1c&H00FFFFFF&}advantages
+Dialogue: 0,0:00:10.99,0:00:11.07,Cap,,0,0,0,,{\1c&H00FFFFFF&}lene {\1c&H0038C8FF&}ke {\1c&H00FFFFFF&}advantages
+Dialogue: 0,0:00:11.07,0:00:11.59,Cap,,0,0,0,,{\1c&H00FFFFFF&}lene {\1c&H00FFFFFF&}ke {\1c&H0038C8FF&}advantages
+Dialogue: 0,0:00:11.59,0:00:11.85,Cap,,0,0,0,,{\1c&H0038C8FF&}kya {\1c&H00FFFFFF&}hain
+Dialogue: 0,0:00:11.85,0:00:12.11,Cap,,0,0,0,,{\1c&H00FFFFFF&}kya {\1c&H0038C8FF&}hain
+Dialogue: 0,0:00:12.11,0:00:12.51,Cap,,0,0,0,,{\1c&H0038C8FF&}is {\1c&H00FFFFFF&}ko
+Dialogue: 0,0:00:12.51,0:00:12.65,Cap,,0,0,0,,{\1c&H00FFFFFF&}is {\1c&H0038C8FF&}ko
+Dialogue: 0,0:00:12.65,0:00:12.91,Cap,,0,0,0,,{\1c&H0038C8FF&}aap {\1c&H00FFFFFF&}ko {\1c&H00FFFFFF&}aur {\1c&H00FFFFFF&}aap
+Dialogue: 0,0:00:12.91,0:00:13.09,Cap,,0,0,0,,{\1c&H00FFFFFF&}aap {\1c&H0038C8FF&}ko {\1c&H00FFFFFF&}aur {\1c&H00FFFFFF&}aap
+Dialogue: 0,0:00:13.09,0:00:13.19,Cap,,0,0,0,,{\1c&H00FFFFFF&}aap {\1c&H00FFFFFF&}ko {\1c&H0038C8FF&}aur {\1c&H00FFFFFF&}aap
+Dialogue: 0,0:00:13.19,0:00:13.29,Cap,,0,0,0,,{\1c&H00FFFFFF&}aap {\1c&H00FFFFFF&}ko {\1c&H00FFFFFF&}aur {\1c&H0038C8FF&}aap
+Dialogue: 0,0:00:13.29,0:00:13.41,Cap,,0,0,0,,{\1c&H0038C8FF&}ki {\1c&H00FFFFFF&}family {\1c&H00FFFFFF&}ko {\1c&H00FFFFFF&}isse
+Dialogue: 0,0:00:13.41,0:00:13.73,Cap,,0,0,0,,{\1c&H00FFFFFF&}ki {\1c&H0038C8FF&}family {\1c&H00FFFFFF&}ko {\1c&H00FFFFFF&}isse
+Dialogue: 0,0:00:13.73,0:00:13.81,Cap,,0,0,0,,{\1c&H00FFFFFF&}ki {\1c&H00FFFFFF&}family {\1c&H0038C8FF&}ko {\1c&H00FFFFFF&}isse
+Dialogue: 0,0:00:13.81,0:00:13.97,Cap,,0,0,0,,{\1c&H00FFFFFF&}ki {\1c&H00FFFFFF&}family {\1c&H00FFFFFF&}ko {\1c&H0038C8FF&}isse
+Dialogue: 0,0:00:13.97,0:00:14.37,Cap,,0,0,0,,{\1c&H0038C8FF&}faida {\1c&H00FFFFFF&}kya {\1c&H00FFFFFF&}hai?
+Dialogue: 0,0:00:14.37,0:00:14.63,Cap,,0,0,0,,{\1c&H00FFFFFF&}faida {\1c&H0038C8FF&}kya {\1c&H00FFFFFF&}hai?
+Dialogue: 0,0:00:14.63,0:00:15.07,Cap,,0,0,0,,{\1c&H00FFFFFF&}faida {\1c&H00FFFFFF&}kya {\1c&H0038C8FF&}hai?
+Dialogue: 0,0:00:15.07,0:00:15.35,Cap,,0,0,0,,{\1c&H0038C8FF&}Is {\1c&H00FFFFFF&}ke {\1c&H00FFFFFF&}andar {\1c&H00FFFFFF&}aap
+Dialogue: 0,0:00:15.35,0:00:15.51,Cap,,0,0,0,,{\1c&H00FFFFFF&}Is {\1c&H0038C8FF&}ke {\1c&H00FFFFFF&}andar {\1c&H00FFFFFF&}aap
+Dialogue: 0,0:00:15.51,0:00:15.73,Cap,,0,0,0,,{\1c&H00FFFFFF&}Is {\1c&H00FFFFFF&}ke {\1c&H0038C8FF&}andar {\1c&H00FFFFFF&}aap
+Dialogue: 0,0:00:15.73,0:00:15.85,Cap,,0,0,0,,{\1c&H00FFFFFF&}Is {\1c&H00FFFFFF&}ke {\1c&H00FFFFFF&}andar {\1c&H0038C8FF&}aap
+Dialogue: 0,0:00:15.85,0:00:16.05,Cap,,0,0,0,,{\1c&H0038C8FF&}Dubai {\1c&H00FFFFFF&}mein {\1c&H00FFFFFF&}PR
+Dialogue: 0,0:00:16.05,0:00:16.15,Cap,,0,0,0,,{\1c&H00FFFFFF&}Dubai {\1c&H0038C8FF&}mein {\1c&H00FFFFFF&}PR
+Dialogue: 0,0:00:16.15,0:00:16.47,Cap,,0,0,0,,{\1c&H00FFFFFF&}Dubai {\1c&H00FFFFFF&}mein {\1c&H0038C8FF&}PR
+Dialogue: 0,0:00:16.47,0:00:16.77,Cap,,0,0,0,,{\1c&H0038C8FF&}kaise {\1c&H00FFFFFF&}hasil {\1c&H00FFFFFF&}kar
+Dialogue: 0,0:00:16.77,0:00:17.09,Cap,,0,0,0,,{\1c&H00FFFFFF&}kaise {\1c&H0038C8FF&}hasil {\1c&H00FFFFFF&}kar
+Dialogue: 0,0:00:17.09,0:00:17.21,Cap,,0,0,0,,{\1c&H00FFFFFF&}kaise {\1c&H00FFFFFF&}hasil {\1c&H0038C8FF&}kar
+Dialogue: 0,0:00:17.21,0:00:17.55,Cap,,0,0,0,,{\1c&H0038C8FF&}sakte {\1c&H00FFFFFF&}hain
+Dialogue: 0,0:00:17.55,0:00:17.71,Cap,,0,0,0,,{\1c&H00FFFFFF&}sakte {\1c&H0038C8FF&}hain
+Dialogue: 0,0:00:17.71,0:00:17.93,Cap,,0,0,0,,{\1c&H0038C8FF&}is {\1c&H00FFFFFF&}ko {\1c&H00FFFFFF&}attain {\1c&H00FFFFFF&}karne
+Dialogue: 0,0:00:17.93,0:00:18.19,Cap,,0,0,0,,{\1c&H00FFFFFF&}is {\1c&H0038C8FF&}ko {\1c&H00FFFFFF&}attain {\1c&H00FFFFFF&}karne
+Dialogue: 0,0:00:18.19,0:00:18.79,Cap,,0,0,0,,{\1c&H00FFFFFF&}is {\1c&H00FFFFFF&}ko {\1c&H0038C8FF&}attain {\1c&H00FFFFFF&}karne
+Dialogue: 0,0:00:18.79,0:00:19.17,Cap,,0,0,0,,{\1c&H00FFFFFF&}is {\1c&H00FFFFFF&}ko {\1c&H00FFFFFF&}attain {\1c&H0038C8FF&}karne
+Dialogue: 0,0:00:19.17,0:00:19.21,Cap,,0,0,0,,{\1c&H0038C8FF&}ke {\1c&H00FFFFFF&}liye {\1c&H00FFFFFF&}kya {\1c&H00FFFFFF&}steps {\1c&H00FFFFFF&}hain
+Dialogue: 0,0:00:19.21,0:00:19.47,Cap,,0,0,0,,{\1c&H00FFFFFF&}ke {\1c&H0038C8FF&}liye {\1c&H00FFFFFF&}kya {\1c&H00FFFFFF&}steps {\1c&H00FFFFFF&}hain
+Dialogue: 0,0:00:19.47,0:00:19.71,Cap,,0,0,0,,{\1c&H00FFFFFF&}ke {\1c&H00FFFFFF&}liye {\1c&H0038C8FF&}kya {\1c&H00FFFFFF&}steps {\1c&H00FFFFFF&}hain
+Dialogue: 0,0:00:19.71,0:00:20.21,Cap,,0,0,0,,{\1c&H00FFFFFF&}ke {\1c&H00FFFFFF&}liye {\1c&H00FFFFFF&}kya {\1c&H0038C8FF&}steps {\1c&H00FFFFFF&}hain
+Dialogue: 0,0:00:20.21,0:00:20.39,Cap,,0,0,0,,{\1c&H00FFFFFF&}ke {\1c&H00FFFFFF&}liye {\1c&H00FFFFFF&}kya {\1c&H00FFFFFF&}steps {\1c&H0038C8FF&}hain
+Dialogue: 0,0:00:20.39,0:00:20.69,Cap,,0,0,0,,{\1c&H0038C8FF&}kis {\1c&H00FFFFFF&}tarah {\1c&H00FFFFFF&}aap {\1c&H00FFFFFF&}is
+Dialogue: 0,0:00:20.69,0:00:20.89,Cap,,0,0,0,,{\1c&H00FFFFFF&}kis {\1c&H0038C8FF&}tarah {\1c&H00FFFFFF&}aap {\1c&H00FFFFFF&}is
+Dialogue: 0,0:00:20.89,0:00:21.03,Cap,,0,0,0,,{\1c&H00FFFFFF&}kis {\1c&H00FFFFFF&}tarah {\1c&H0038C8FF&}aap {\1c&H00FFFFFF&}is
+Dialogue: 0,0:00:21.03,0:00:21.15,Cap,,0,0,0,,{\1c&H00FFFFFF&}kis {\1c&H00FFFFFF&}tarah {\1c&H00FFFFFF&}aap {\1c&H0038C8FF&}is
+Dialogue: 0,0:00:21.15,0:00:21.27,Cap,,0,0,0,,{\1c&H0038C8FF&}ko {\1c&H00FFFFFF&}le {\1c&H00FFFFFF&}sakte {\1c&H00FFFFFF&}hain
+Dialogue: 0,0:00:21.27,0:00:21.45,Cap,,0,0,0,,{\1c&H00FFFFFF&}ko {\1c&H0038C8FF&}le {\1c&H00FFFFFF&}sakte {\1c&H00FFFFFF&}hain
+Dialogue: 0,0:00:21.45,0:00:21.79,Cap,,0,0,0,,{\1c&H00FFFFFF&}ko {\1c&H00FFFFFF&}le {\1c&H0038C8FF&}sakte {\1c&H00FFFFFF&}hain
+Dialogue: 0,0:00:21.79,0:00:22.21,Cap,,0,0,0,,{\1c&H00FFFFFF&}ko {\1c&H00FFFFFF&}le {\1c&H00FFFFFF&}sakte {\1c&H0038C8FF&}hain
+Dialogue: 0,0:00:22.21,0:00:22.47,Cap,,0,0,0,,{\1c&H0038C8FF&}Aur {\1c&H00FFFFFF&}kya {\1c&H00FFFFFF&}is {\1c&H00FFFFFF&}ke
+Dialogue: 0,0:00:22.47,0:00:22.77,Cap,,0,0,0,,{\1c&H00FFFFFF&}Aur {\1c&H0038C8FF&}kya {\1c&H00FFFFFF&}is {\1c&H00FFFFFF&}ke
+Dialogue: 0,0:00:22.77,0:00:22.93,Cap,,0,0,0,,{\1c&H00FFFFFF&}Aur {\1c&H00FFFFFF&}kya {\1c&H0038C8FF&}is {\1c&H00FFFFFF&}ke
+Dialogue: 0,0:00:22.93,0:00:23.05,Cap,,0,0,0,,{\1c&H00FFFFFF&}Aur {\1c&H00FFFFFF&}kya {\1c&H00FFFFFF&}is {\1c&H0038C8FF&}ke
+Dialogue: 0,0:00:23.05,0:00:23.71,Cap,,0,0,0,,{\1c&H0038C8FF&}advantages {\1c&H00FFFFFF&}hain
+Dialogue: 0,0:00:23.71,0:00:23.89,Cap,,0,0,0,,{\1c&H00FFFFFF&}advantages {\1c&H0038C8FF&}hain
+Dialogue: 0,0:00:23.89,0:00:24.15,Cap,,0,0,0,,{\1c&H0038C8FF&}aap {\1c&H00FFFFFF&}ko
+Dialogue: 0,0:00:24.15,0:00:24.37,Cap,,0,0,0,,{\1c&H00FFFFFF&}aap {\1c&H0038C8FF&}ko
+Dialogue: 0,0:00:24.37,0:00:24.57,Cap,,0,0,0,,{\1c&H0038C8FF&}aap {\1c&H00FFFFFF&}ki {\1c&H00FFFFFF&}family {\1c&H00FFFFFF&}ko
+Dialogue: 0,0:00:24.57,0:00:24.73,Cap,,0,0,0,,{\1c&H00FFFFFF&}aap {\1c&H0038C8FF&}ki {\1c&H00FFFFFF&}family {\1c&H00FFFFFF&}ko
+Dialogue: 0,0:00:24.73,0:00:25.13,Cap,,0,0,0,,{\1c&H00FFFFFF&}aap {\1c&H00FFFFFF&}ki {\1c&H0038C8FF&}family {\1c&H00FFFFFF&}ko
+Dialogue: 0,0:00:25.13,0:00:25.33,Cap,,0,0,0,,{\1c&H00FFFFFF&}aap {\1c&H00FFFFFF&}ki {\1c&H00FFFFFF&}family {\1c&H0038C8FF&}ko
+Dialogue: 0,0:00:25.33,0:00:25.63,Cap,,0,0,0,,{\1c&H0038C8FF&}aap {\1c&H00FFFFFF&}ke {\1c&H00FFFFFF&}tamaam {\1c&H00FFFFFF&}servants
+Dialogue: 0,0:00:25.63,0:00:25.83,Cap,,0,0,0,,{\1c&H00FFFFFF&}aap {\1c&H0038C8FF&}ke {\1c&H00FFFFFF&}tamaam {\1c&H00FFFFFF&}servants
+Dialogue: 0,0:00:25.83,0:00:26.51,Cap,,0,0,0,,{\1c&H00FFFFFF&}aap {\1c&H00FFFFFF&}ke {\1c&H0038C8FF&}tamaam {\1c&H00FFFFFF&}servants
+Dialogue: 0,0:00:26.51,0:00:27.31,Cap,,0,0,0,,{\1c&H00FFFFFF&}aap {\1c&H00FFFFFF&}ke {\1c&H00FFFFFF&}tamaam {\1c&H0038C8FF&}servants
+Dialogue: 0,0:00:27.31,0:00:27.71,Cap,,0,0,0,,{\1c&H0038C8FF&}drivers {\1c&H00FFFFFF&}waghera {\1c&H00FFFFFF&}ko
+Dialogue: 0,0:00:27.71,0:00:27.99,Cap,,0,0,0,,{\1c&H00FFFFFF&}drivers {\1c&H0038C8FF&}waghera {\1c&H00FFFFFF&}ko
+Dialogue: 0,0:00:27.99,0:00:28.09,Cap,,0,0,0,,{\1c&H00FFFFFF&}drivers {\1c&H00FFFFFF&}waghera {\1c&H0038C8FF&}ko
+Dialogue: 0,0:00:28.09,0:00:28.21,Cap,,0,0,0,,{\1c&H0038C8FF&}aap {\1c&H00FFFFFF&}kaise {\1c&H00FFFFFF&}is {\1c&H00FFFFFF&}ke
+Dialogue: 0,0:00:28.21,0:00:28.49,Cap,,0,0,0,,{\1c&H00FFFFFF&}aap {\1c&H0038C8FF&}kaise {\1c&H00FFFFFF&}is {\1c&H00FFFFFF&}ke
+Dialogue: 0,0:00:28.49,0:00:28.59,Cap,,0,0,0,,{\1c&H00FFFFFF&}aap {\1c&H00FFFFFF&}kaise {\1c&H0038C8FF&}is {\1c&H00FFFFFF&}ke
+Dialogue: 0,0:00:28.59,0:00:28.69,Cap,,0,0,0,,{\1c&H00FFFFFF&}aap {\1c&H00FFFFFF&}kaise {\1c&H00FFFFFF&}is {\1c&H0038C8FF&}ke
+Dialogue: 0,0:00:28.69,0:00:28.87,Cap,,0,0,0,,{\1c&H0038C8FF&}ooper {\1c&H00FFFFFF&}apne {\1c&H00FFFFFF&}yahan
+Dialogue: 0,0:00:28.87,0:00:29.47,Cap,,0,0,0,,{\1c&H00FFFFFF&}ooper {\1c&H0038C8FF&}apne {\1c&H00FFFFFF&}yahan
+Dialogue: 0,0:00:29.47,0:00:29.93,Cap,,0,0,0,,{\1c&H00FFFFFF&}ooper {\1c&H00FFFFFF&}apne {\1c&H0038C8FF&}yahan
+Dialogue: 0,0:00:29.93,0:00:30.13,Cap,,0,0,0,,{\1c&H0038C8FF&}pe {\1c&H00FFFFFF&}la {\1c&H00FFFFFF&}sakte {\1c&H00FFFFFF&}hain
+Dialogue: 0,0:00:30.13,0:00:30.71,Cap,,0,0,0,,{\1c&H00FFFFFF&}pe {\1c&H0038C8FF&}la {\1c&H00FFFFFF&}sakte {\1c&H00FFFFFF&}hain
+Dialogue: 0,0:00:30.71,0:00:31.03,Cap,,0,0,0,,{\1c&H00FFFFFF&}pe {\1c&H00FFFFFF&}la {\1c&H0038C8FF&}sakte {\1c&H00FFFFFF&}hain
+Dialogue: 0,0:00:31.03,0:00:31.15,Cap,,0,0,0,,{\1c&H00FFFFFF&}pe {\1c&H00FFFFFF&}la {\1c&H00FFFFFF&}sakte {\1c&H0038C8FF&}hain
+Dialogue: 0,0:00:31.15,0:00:31.37,Cap,,0,0,0,,{\1c&H0038C8FF&}apne {\1c&H00FFFFFF&}aasaani {\1c&H00FFFFFF&}se
+Dialogue: 0,0:00:31.37,0:00:31.69,Cap,,0,0,0,,{\1c&H00FFFFFF&}apne {\1c&H0038C8FF&}aasaani {\1c&H00FFFFFF&}se
+Dialogue: 0,0:00:31.69,0:00:31.95,Cap,,0,0,0,,{\1c&H00FFFFFF&}apne {\1c&H00FFFFFF&}aasaani {\1c&H0038C8FF&}se
+Dialogue: 0,0:00:31.95,0:00:32.29,Cap,,0,0,0,,{\1c&H0038C8FF&}sakte {\1c&H00FFFFFF&}hain
+Dialogue: 0,0:00:32.29,0:00:32.43,Cap,,0,0,0,,{\1c&H00FFFFFF&}sakte {\1c&H0038C8FF&}hain
+Dialogue: 0,0:00:32.43,0:00:32.69,Cap,,0,0,0,,{\1c&H0038C8FF&}Dubai {\1c&H00FFFFFF&}mein {\1c&H00FFFFFF&}kaise
+Dialogue: 0,0:00:32.69,0:00:32.79,Cap,,0,0,0,,{\1c&H00FFFFFF&}Dubai {\1c&H0038C8FF&}mein {\1c&H00FFFFFF&}kaise
+Dialogue: 0,0:00:32.79,0:00:33.09,Cap,,0,0,0,,{\1c&H00FFFFFF&}Dubai {\1c&H00FFFFFF&}mein {\1c&H0038C8FF&}kaise
+Dialogue: 0,0:00:33.09,0:00:33.23,Cap,,0,0,0,,{\1c&H0038C8FF&}reh {\1c&H00FFFFFF&}sakte {\1c&H00FFFFFF&}hain
+Dialogue: 0,0:00:33.23,0:00:33.49,Cap,,0,0,0,,{\1c&H00FFFFFF&}reh {\1c&H0038C8FF&}sakte {\1c&H00FFFFFF&}hain
+Dialogue: 0,0:00:33.49,0:00:33.55,Cap,,0,0,0,,{\1c&H00FFFFFF&}reh {\1c&H00FFFFFF&}sakte {\1c&H0038C8FF&}hain
+Dialogue: 0,0:00:33.55,0:00:33.79,Cap,,0,0,0,,{\1c&H0038C8FF&}Dubai {\1c&H00FFFFFF&}ki {\1c&H00FFFFFF&}PR {\1c&H00FFFFFF&}aap
+Dialogue: 0,0:00:33.79,0:00:33.91,Cap,,0,0,0,,{\1c&H00FFFFFF&}Dubai {\1c&H0038C8FF&}ki {\1c&H00FFFFFF&}PR {\1c&H00FFFFFF&}aap
+Dialogue: 0,0:00:33.91,0:00:34.19,Cap,,0,0,0,,{\1c&H00FFFFFF&}Dubai {\1c&H00FFFFFF&}ki {\1c&H0038C8FF&}PR {\1c&H00FFFFFF&}aap
+Dialogue: 0,0:00:34.19,0:00:34.33,Cap,,0,0,0,,{\1c&H00FFFFFF&}Dubai {\1c&H00FFFFFF&}ki {\1c&H00FFFFFF&}PR {\1c&H0038C8FF&}aap
+Dialogue: 0,0:00:34.33,0:00:34.47,Cap,,0,0,0,,{\1c&H0038C8FF&}ko {\1c&H00FFFFFF&}kaise {\1c&H00FFFFFF&}milti {\1c&H00FFFFFF&}hai
+Dialogue: 0,0:00:34.47,0:00:34.71,Cap,,0,0,0,,{\1c&H00FFFFFF&}ko {\1c&H0038C8FF&}kaise {\1c&H00FFFFFF&}milti {\1c&H00FFFFFF&}hai
+Dialogue: 0,0:00:34.71,0:00:34.99,Cap,,0,0,0,,{\1c&H00FFFFFF&}ko {\1c&H00FFFFFF&}kaise {\1c&H0038C8FF&}milti {\1c&H00FFFFFF&}hai
+Dialogue: 0,0:00:34.99,0:00:35.17,Cap,,0,0,0,,{\1c&H00FFFFFF&}ko {\1c&H00FFFFFF&}kaise {\1c&H00FFFFFF&}milti {\1c&H0038C8FF&}hai
+Dialogue: 0,0:00:35.17,0:00:35.73,Cap,,0,0,0,,{\1c&H0038C8FF&}aur {\1c&H00FFFFFF&}is {\1c&H00FFFFFF&}ko {\1c&H00FFFFFF&}lene
+Dialogue: 0,0:00:35.73,0:00:36.11,Cap,,0,0,0,,{\1c&H00FFFFFF&}aur {\1c&H0038C8FF&}is {\1c&H00FFFFFF&}ko {\1c&H00FFFFFF&}lene
+Dialogue: 0,0:00:36.11,0:00:36.23,Cap,,0,0,0,,{\1c&H00FFFFFF&}aur {\1c&H00FFFFFF&}is {\1c&H0038C8FF&}ko {\1c&H00FFFFFF&}lene
+Dialogue: 0,0:00:36.23,0:00:36.53,Cap,,0,0,0,,{\1c&H00FFFFFF&}aur {\1c&H00FFFFFF&}is {\1c&H00FFFFFF&}ko {\1c&H0038C8FF&}lene
+Dialogue: 0,0:00:36.53,0:00:36.63,Cap,,0,0,0,,{\1c&H0038C8FF&}ki {\1c&H00FFFFFF&}kya {\1c&H00FFFFFF&}easiest
+Dialogue: 0,0:00:36.63,0:00:36.93,Cap,,0,0,0,,{\1c&H00FFFFFF&}ki {\1c&H0038C8FF&}kya {\1c&H00FFFFFF&}easiest
+Dialogue: 0,0:00:36.93,0:00:37.47,Cap,,0,0,0,,{\1c&H00FFFFFF&}ki {\1c&H00FFFFFF&}kya {\1c&H0038C8FF&}easiest
+Dialogue: 0,0:00:37.47,0:00:37.73,Cap,,0,0,0,,{\1c&H0038C8FF&}ways {\1c&H00FFFFFF&}kya {\1c&H00FFFFFF&}hai
+Dialogue: 0,0:00:37.73,0:00:37.93,Cap,,0,0,0,,{\1c&H00FFFFFF&}ways {\1c&H0038C8FF&}kya {\1c&H00FFFFFF&}hai
+Dialogue: 0,0:00:37.93,0:00:38.03,Cap,,0,0,0,,{\1c&H00FFFFFF&}ways {\1c&H00FFFFFF&}kya {\1c&H0038C8FF&}hai
+Dialogue: 0,0:00:38.03,0:00:38.43,Cap,,0,0,0,,{\1c&H0038C8FF&}all {\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}ways {\1c&H00FFFFFF&}and
+Dialogue: 0,0:00:38.43,0:00:38.61,Cap,,0,0,0,,{\1c&H00FFFFFF&}all {\1c&H0038C8FF&}the {\1c&H00FFFFFF&}ways {\1c&H00FFFFFF&}and
+Dialogue: 0,0:00:38.61,0:00:38.81,Cap,,0,0,0,,{\1c&H00FFFFFF&}all {\1c&H00FFFFFF&}the {\1c&H0038C8FF&}ways {\1c&H00FFFFFF&}and
+Dialogue: 0,0:00:38.81,0:00:39.19,Cap,,0,0,0,,{\1c&H00FFFFFF&}all {\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}ways {\1c&H0038C8FF&}and
+Dialogue: 0,0:00:39.19,0:00:39.39,Cap,,0,0,0,,{\1c&H0038C8FF&}the {\1c&H00FFFFFF&}easiest {\1c&H00FFFFFF&}ways
+Dialogue: 0,0:00:39.39,0:00:39.71,Cap,,0,0,0,,{\1c&H00FFFFFF&}the {\1c&H0038C8FF&}easiest {\1c&H00FFFFFF&}ways
+Dialogue: 0,0:00:39.71,0:00:40.01,Cap,,0,0,0,,{\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}easiest {\1c&H0038C8FF&}ways
+Dialogue: 0,0:00:40.01,0:00:40.19,Cap,,0,0,0,,{\1c&H0038C8FF&}main {\1c&H00FFFFFF&}sara {\1c&H00FFFFFF&}kuch {\1c&H00FFFFFF&}is
+Dialogue: 0,0:00:40.19,0:00:40.47,Cap,,0,0,0,,{\1c&H00FFFFFF&}main {\1c&H0038C8FF&}sara {\1c&H00FFFFFF&}kuch {\1c&H00FFFFFF&}is
+Dialogue: 0,0:00:40.47,0:00:40.63,Cap,,0,0,0,,{\1c&H00FFFFFF&}main {\1c&H00FFFFFF&}sara {\1c&H0038C8FF&}kuch {\1c&H00FFFFFF&}is
+Dialogue: 0,0:00:40.63,0:00:40.73,Cap,,0,0,0,,{\1c&H00FFFFFF&}main {\1c&H00FFFFFF&}sara {\1c&H00FFFFFF&}kuch {\1c&H0038C8FF&}is
+Dialogue: 0,0:00:40.73,0:00:40.81,Cap,,0,0,0,,{\1c&H0038C8FF&}ke {\1c&H00FFFFFF&}andar {\1c&H00FFFFFF&}bari
+Dialogue: 0,0:00:40.81,0:00:40.89,Cap,,0,0,0,,{\1c&H00FFFFFF&}ke {\1c&H0038C8FF&}andar {\1c&H00FFFFFF&}bari
+Dialogue: 0,0:00:40.89,0:00:41.05,Cap,,0,0,0,,{\1c&H00FFFFFF&}ke {\1c&H00FFFFFF&}andar {\1c&H0038C8FF&}bari
+Dialogue: 0,0:00:41.05,0:00:41.33,Cap,,0,0,0,,{\1c&H0038C8FF&}detail {\1c&H00FFFFFF&}se {\1c&H00FFFFFF&}define
+Dialogue: 0,0:00:41.33,0:00:41.41,Cap,,0,0,0,,{\1c&H00FFFFFF&}detail {\1c&H0038C8FF&}se {\1c&H00FFFFFF&}define
+Dialogue: 0,0:00:41.41,0:00:41.69,Cap,,0,0,0,,{\1c&H00FFFFFF&}detail {\1c&H00FFFFFF&}se {\1c&H0038C8FF&}define
+Dialogue: 0,0:00:41.69,0:00:41.93,Cap,,0,0,0,,{\1c&H0038C8FF&}karun {\1c&H00FFFFFF&}ga
+Dialogue: 0,0:00:41.93,0:00:42.31,Cap,,0,0,0,,{\1c&H00FFFFFF&}karun {\1c&H0038C8FF&}ga
+Dialogue: 0,0:00:42.31,0:00:42.53,Cap,,0,0,0,,{\1c&H0038C8FF&}So {\1c&H00FFFFFF&}go {\1c&H00FFFFFF&}through {\1c&H00FFFFFF&}my
+Dialogue: 0,0:00:42.53,0:00:42.71,Cap,,0,0,0,,{\1c&H00FFFFFF&}So {\1c&H0038C8FF&}go {\1c&H00FFFFFF&}through {\1c&H00FFFFFF&}my
+Dialogue: 0,0:00:42.71,0:00:42.85,Cap,,0,0,0,,{\1c&H00FFFFFF&}So {\1c&H00FFFFFF&}go {\1c&H0038C8FF&}through {\1c&H00FFFFFF&}my
+Dialogue: 0,0:00:42.85,0:00:43.01,Cap,,0,0,0,,{\1c&H00FFFFFF&}So {\1c&H00FFFFFF&}go {\1c&H00FFFFFF&}through {\1c&H0038C8FF&}my
+Dialogue: 0,0:00:43.01,0:00:43.33,Cap,,0,0,0,,{\1c&H0038C8FF&}video {\1c&H00FFFFFF&}Long {\1c&H00FFFFFF&}video {\1c&H00FFFFFF&}hai
+Dialogue: 0,0:00:43.33,0:00:43.89,Cap,,0,0,0,,{\1c&H00FFFFFF&}video {\1c&H0038C8FF&}Long {\1c&H00FFFFFF&}video {\1c&H00FFFFFF&}hai
+Dialogue: 0,0:00:43.89,0:00:44.21,Cap,,0,0,0,,{\1c&H00FFFFFF&}video {\1c&H00FFFFFF&}Long {\1c&H0038C8FF&}video {\1c&H00FFFFFF&}hai
+Dialogue: 0,0:00:44.21,0:00:44.47,Cap,,0,0,0,,{\1c&H00FFFFFF&}video {\1c&H00FFFFFF&}Long {\1c&H00FFFFFF&}video {\1c&H0038C8FF&}hai
+Dialogue: 0,0:00:44.47,0:00:44.77,Cap,,0,0,0,,{\1c&H0038C8FF&}thora {\1c&H00FFFFFF&}detail {\1c&H00FFFFFF&}se
+Dialogue: 0,0:00:44.77,0:00:45.09,Cap,,0,0,0,,{\1c&H00FFFFFF&}thora {\1c&H0038C8FF&}detail {\1c&H00FFFFFF&}se
+Dialogue: 0,0:00:45.09,0:00:45.21,Cap,,0,0,0,,{\1c&H00FFFFFF&}thora {\1c&H00FFFFFF&}detail {\1c&H0038C8FF&}se
+Dialogue: 0,0:00:45.21,0:00:45.49,Cap,,0,0,0,,{\1c&H0038C8FF&}dekhiye {\1c&H00FFFFFF&}ga
+Dialogue: 0,0:00:45.49,0:00:45.69,Cap,,0,0,0,,{\1c&H00FFFFFF&}dekhiye {\1c&H0038C8FF&}ga
+Dialogue: 0,0:00:45.69,0:00:45.99,Cap,,0,0,0,,{\1c&H0038C8FF&}poora {\1c&H00FFFFFF&}ek {\1c&H00FFFFFF&}point
+Dialogue: 0,0:00:45.99,0:00:46.15,Cap,,0,0,0,,{\1c&H00FFFFFF&}poora {\1c&H0038C8FF&}ek {\1c&H00FFFFFF&}point
+Dialogue: 0,0:00:46.15,0:00:46.45,Cap,,0,0,0,,{\1c&H00FFFFFF&}poora {\1c&H00FFFFFF&}ek {\1c&H0038C8FF&}point
+Dialogue: 0,0:00:46.45,0:00:46.63,Cap,,0,0,0,,{\1c&H0038C8FF&}main {\1c&H00FFFFFF&}is {\1c&H00FFFFFF&}ke {\1c&H00FFFFFF&}andar
+Dialogue: 0,0:00:46.63,0:00:46.77,Cap,,0,0,0,,{\1c&H00FFFFFF&}main {\1c&H0038C8FF&}is {\1c&H00FFFFFF&}ke {\1c&H00FFFFFF&}andar
+Dialogue: 0,0:00:46.77,0:00:46.87,Cap,,0,0,0,,{\1c&H00FFFFFF&}main {\1c&H00FFFFFF&}is {\1c&H0038C8FF&}ke {\1c&H00FFFFFF&}andar
+Dialogue: 0,0:00:46.87,0:00:46.93,Cap,,0,0,0,,{\1c&H00FFFFFF&}main {\1c&H00FFFFFF&}is {\1c&H00FFFFFF&}ke {\1c&H0038C8FF&}andar
+Dialogue: 0,0:00:46.93,0:00:47.13,Cap,,0,0,0,,{\1c&H0038C8FF&}bara {\1c&H00FFFFFF&}khol {\1c&H00FFFFFF&}ke
+Dialogue: 0,0:00:47.13,0:00:47.39,Cap,,0,0,0,,{\1c&H00FFFFFF&}bara {\1c&H0038C8FF&}khol {\1c&H00FFFFFF&}ke
+Dialogue: 0,0:00:47.39,0:00:47.53,Cap,,0,0,0,,{\1c&H00FFFFFF&}bara {\1c&H00FFFFFF&}khol {\1c&H0038C8FF&}ke
+Dialogue: 0,0:00:47.53,0:00:47.85,Cap,,0,0,0,,{\1c&H0038C8FF&}define {\1c&H00FFFFFF&}kiya {\1c&H00FFFFFF&}hai
+Dialogue: 0,0:00:47.85,0:00:48.07,Cap,,0,0,0,,{\1c&H00FFFFFF&}define {\1c&H0038C8FF&}kiya {\1c&H00FFFFFF&}hai
+Dialogue: 0,0:00:48.07,0:00:48.21,Cap,,0,0,0,,{\1c&H00FFFFFF&}define {\1c&H00FFFFFF&}kiya {\1c&H0038C8FF&}hai
+Dialogue: 0,0:00:48.21,0:00:48.63,Cap,,0,0,0,,{\1c&H0038C8FF&}Aap {\1c&H00FFFFFF&}is {\1c&H00FFFFFF&}ko {\1c&H00FFFFFF&}bari
+Dialogue: 0,0:00:48.63,0:00:48.77,Cap,,0,0,0,,{\1c&H00FFFFFF&}Aap {\1c&H0038C8FF&}is {\1c&H00FFFFFF&}ko {\1c&H00FFFFFF&}bari
+Dialogue: 0,0:00:48.77,0:00:48.85,Cap,,0,0,0,,{\1c&H00FFFFFF&}Aap {\1c&H00FFFFFF&}is {\1c&H0038C8FF&}ko {\1c&H00FFFFFF&}bari
+Dialogue: 0,0:00:48.85,0:00:49.05,Cap,,0,0,0,,{\1c&H00FFFFFF&}Aap {\1c&H00FFFFFF&}is {\1c&H00FFFFFF&}ko {\1c&H0038C8FF&}bari
+Dialogue: 0,0:00:49.05,0:00:49.43,Cap,,0,0,0,,{\1c&H0038C8FF&}detail {\1c&H00FFFFFF&}se {\1c&H00FFFFFF&}samajh
+Dialogue: 0,0:00:49.43,0:00:49.57,Cap,,0,0,0,,{\1c&H00FFFFFF&}detail {\1c&H0038C8FF&}se {\1c&H00FFFFFF&}samajh
+Dialogue: 0,0:00:49.57,0:00:49.87,Cap,,0,0,0,,{\1c&H00FFFFFF&}detail {\1c&H00FFFFFF&}se {\1c&H0038C8FF&}samajh
+Dialogue: 0,0:00:49.87,0:00:50.17,Cap,,0,0,0,,{\1c&H0038C8FF&}sakte {\1c&H00FFFFFF&}hain
+Dialogue: 0,0:00:50.17,0:00:50.25,Cap,,0,0,0,,{\1c&H00FFFFFF&}sakte {\1c&H0038C8FF&}hain
+Dialogue: 0,0:00:50.25,0:00:50.39,Cap,,0,0,0,,{\1c&H0038C8FF&}aap {\1c&H00FFFFFF&}apni {\1c&H00FFFFFF&}family {\1c&H00FFFFFF&}ke
+Dialogue: 0,0:00:50.39,0:00:50.51,Cap,,0,0,0,,{\1c&H00FFFFFF&}aap {\1c&H0038C8FF&}apni {\1c&H00FFFFFF&}family {\1c&H00FFFFFF&}ke
+Dialogue: 0,0:00:50.51,0:00:50.77,Cap,,0,0,0,,{\1c&H00FFFFFF&}aap {\1c&H00FFFFFF&}apni {\1c&H0038C8FF&}family {\1c&H00FFFFFF&}ke
+Dialogue: 0,0:00:50.77,0:00:50.81,Cap,,0,0,0,,{\1c&H00FFFFFF&}aap {\1c&H00FFFFFF&}apni {\1c&H00FFFFFF&}family {\1c&H0038C8FF&}ke
+Dialogue: 0,0:00:50.81,0:00:50.97,Cap,,0,0,0,,{\1c&H0038C8FF&}saath {\1c&H00FFFFFF&}share {\1c&H00FFFFFF&}kar
+Dialogue: 0,0:00:50.97,0:00:51.17,Cap,,0,0,0,,{\1c&H00FFFFFF&}saath {\1c&H0038C8FF&}share {\1c&H00FFFFFF&}kar
+Dialogue: 0,0:00:51.17,0:00:51.27,Cap,,0,0,0,,{\1c&H00FFFFFF&}saath {\1c&H00FFFFFF&}share {\1c&H0038C8FF&}kar
+Dialogue: 0,0:00:51.27,0:00:51.42,Cap,,0,0,0,,{\1c&H0038C8FF&}sakte {\1c&H00FFFFFF&}hain
+Dialogue: 0,0:00:51.42,0:00:51.55,Cap,,0,0,0,,{\1c&H00FFFFFF&}sakte {\1c&H0038C8FF&}hain
+Dialogue: 0,0:00:51.55,0:00:51.79,Cap,,0,0,0,,{\1c&H00FFFFFF&}apne {\1c&H0038C8FF&}friends {\1c&H00FFFFFF&}ke
+Dialogue: 0,0:00:51.79,0:00:51.93,Cap,,0,0,0,,{\1c&H00FFFFFF&}apne {\1c&H00FFFFFF&}friends {\1c&H0038C8FF&}ke
+Dialogue: 0,0:00:51.93,0:00:52.05,Cap,,0,0,0,,{\1c&H0038C8FF&}saath {\1c&H00FFFFFF&}share {\1c&H00FFFFFF&}kar
+Dialogue: 0,0:00:52.05,0:00:52.23,Cap,,0,0,0,,{\1c&H00FFFFFF&}saath {\1c&H0038C8FF&}share {\1c&H00FFFFFF&}kar
+Dialogue: 0,0:00:52.23,0:00:52.33,Cap,,0,0,0,,{\1c&H00FFFFFF&}saath {\1c&H00FFFFFF&}share {\1c&H0038C8FF&}kar
+Dialogue: 0,0:00:52.33,0:00:52.59,Cap,,0,0,0,,{\1c&H0038C8FF&}sakte {\1c&H00FFFFFF&}hain
+Dialogue: 0,0:00:52.59,0:00:52.67,Cap,,0,0,0,,{\1c&H00FFFFFF&}sakte {\1c&H0038C8FF&}hain
+Dialogue: 0,0:00:52.67,0:00:53.11,Cap,,0,0,0,,{\1c&H0038C8FF&}Wo {\1c&H00FFFFFF&}log {\1c&H00FFFFFF&}jo {\1c&H00FFFFFF&}Golden
+Dialogue: 0,0:00:53.11,0:00:53.39,Cap,,0,0,0,,{\1c&H00FFFFFF&}Wo {\1c&H0038C8FF&}log {\1c&H00FFFFFF&}jo {\1c&H00FFFFFF&}Golden
+Dialogue: 0,0:00:53.39,0:00:53.49,Cap,,0,0,0,,{\1c&H00FFFFFF&}Wo {\1c&H00FFFFFF&}log {\1c&H0038C8FF&}jo {\1c&H00FFFFFF&}Golden
+Dialogue: 0,0:00:53.49,0:00:53.69,Cap,,0,0,0,,{\1c&H00FFFFFF&}Wo {\1c&H00FFFFFF&}log {\1c&H00FFFFFF&}jo {\1c&H0038C8FF&}Golden
+Dialogue: 0,0:00:53.69,0:00:53.91,Cap,,0,0,0,,{\1c&H0038C8FF&}Visa {\1c&H00FFFFFF&}hasil {\1c&H00FFFFFF&}karna
+Dialogue: 0,0:00:53.91,0:00:54.21,Cap,,0,0,0,,{\1c&H00FFFFFF&}Visa {\1c&H0038C8FF&}hasil {\1c&H00FFFFFF&}karna
+Dialogue: 0,0:00:54.21,0:00:54.93,Cap,,0,0,0,,{\1c&H00FFFFFF&}Visa {\1c&H00FFFFFF&}hasil {\1c&H0038C8FF&}karna
+Dialogue: 0,0:00:54.93,0:00:55.23,Cap,,0,0,0,,{\1c&H0038C8FF&}chahte {\1c&H00FFFFFF&}hain {\1c&H00FFFFFF&}Dubai {\1c&H00FFFFFF&}ka
+Dialogue: 0,0:00:55.23,0:00:55.29,Cap,,0,0,0,,{\1c&H00FFFFFF&}chahte {\1c&H0038C8FF&}hain {\1c&H00FFFFFF&}Dubai {\1c&H00FFFFFF&}ka
+Dialogue: 0,0:00:55.29,0:00:55.51,Cap,,0,0,0,,{\1c&H00FFFFFF&}chahte {\1c&H00FFFFFF&}hain {\1c&H0038C8FF&}Dubai {\1c&H00FFFFFF&}ka
+Dialogue: 0,0:00:55.51,0:00:55.73,Cap,,0,0,0,,{\1c&H00FFFFFF&}chahte {\1c&H00FFFFFF&}hain {\1c&H00FFFFFF&}Dubai {\1c&H0038C8FF&}ka
+Dialogue: 0,0:00:55.73,0:00:56.17,Cap,,0,0,0,,{\1c&H0038C8FF&}is {\1c&H00FFFFFF&}ko {\1c&H00FFFFFF&}bare {\1c&H00FFFFFF&}aaram
+Dialogue: 0,0:00:56.17,0:00:56.29,Cap,,0,0,0,,{\1c&H00FFFFFF&}is {\1c&H0038C8FF&}ko {\1c&H00FFFFFF&}bare {\1c&H00FFFFFF&}aaram
+Dialogue: 0,0:00:56.29,0:00:56.53,Cap,,0,0,0,,{\1c&H00FFFFFF&}is {\1c&H00FFFFFF&}ko {\1c&H0038C8FF&}bare {\1c&H00FFFFFF&}aaram
+Dialogue: 0,0:00:56.53,0:00:56.95,Cap,,0,0,0,,{\1c&H00FFFFFF&}is {\1c&H00FFFFFF&}ko {\1c&H00FFFFFF&}bare {\1c&H0038C8FF&}aaram
+Dialogue: 0,0:00:56.95,0:00:57.15,Cap,,0,0,0,,{\1c&H0038C8FF&}se {\1c&H00FFFFFF&}dekhein
+Dialogue: 0,0:00:57.15,0:00:57.45,Cap,,0,0,0,,{\1c&H00FFFFFF&}se {\1c&H0038C8FF&}dekhein
+Dialogue: 0,0:00:57.45,0:00:57.75,Cap,,0,0,0,,{\1c&H0038C8FF&}sukoon {\1c&H00FFFFFF&}se {\1c&H00FFFFFF&}dekhein
+Dialogue: 0,0:00:57.75,0:00:57.89,Cap,,0,0,0,,{\1c&H00FFFFFF&}sukoon {\1c&H0038C8FF&}se {\1c&H00FFFFFF&}dekhein
+Dialogue: 0,0:00:57.89,0:00:58.17,Cap,,0,0,0,,{\1c&H00FFFFFF&}sukoon {\1c&H00FFFFFF&}se {\1c&H0038C8FF&}dekhein
+Dialogue: 0,0:00:58.17,0:00:58.27,Cap,,0,0,0,,{\1c&H0038C8FF&}Is {\1c&H00FFFFFF&}ke {\1c&H00FFFFFF&}andar {\1c&H00FFFFFF&}sara
+Dialogue: 0,0:00:58.27,0:00:58.37,Cap,,0,0,0,,{\1c&H00FFFFFF&}Is {\1c&H0038C8FF&}ke {\1c&H00FFFFFF&}andar {\1c&H00FFFFFF&}sara
+Dialogue: 0,0:00:58.37,0:00:58.45,Cap,,0,0,0,,{\1c&H00FFFFFF&}Is {\1c&H00FFFFFF&}ke {\1c&H0038C8FF&}andar {\1c&H00FFFFFF&}sara
+Dialogue: 0,0:00:58.45,0:00:58.89,Cap,,0,0,0,,{\1c&H00FFFFFF&}Is {\1c&H00FFFFFF&}ke {\1c&H00FFFFFF&}andar {\1c&H0038C8FF&}sara
+Dialogue: 0,0:00:58.89,0:00:59.09,Cap,,0,0,0,,{\1c&H0038C8FF&}kuch {\1c&H00FFFFFF&}main {\1c&H00FFFFFF&}ne {\1c&H00FFFFFF&}bare
+Dialogue: 0,0:00:59.09,0:00:59.17,Cap,,0,0,0,,{\1c&H00FFFFFF&}kuch {\1c&H0038C8FF&}main {\1c&H00FFFFFF&}ne {\1c&H00FFFFFF&}bare
+Dialogue: 0,0:00:59.17,0:00:59.31,Cap,,0,0,0,,{\1c&H00FFFFFF&}kuch {\1c&H00FFFFFF&}main {\1c&H0038C8FF&}ne {\1c&H00FFFFFF&}bare
+Dialogue: 0,0:00:59.31,0:00:59.47,Cap,,0,0,0,,{\1c&H00FFFFFF&}kuch {\1c&H00FFFFFF&}main {\1c&H00FFFFFF&}ne {\1c&H0038C8FF&}bare
+Dialogue: 0,0:00:59.47,0:00:59.75,Cap,,0,0,0,,{\1c&H0038C8FF&}achhe {\1c&H00FFFFFF&}tareeqe {\1c&H00FFFFFF&}se
+Dialogue: 0,0:00:59.75,0:00:59.97,Cap,,0,0,0,,{\1c&H00FFFFFF&}achhe {\1c&H0038C8FF&}tareeqe {\1c&H00FFFFFF&}se
+Dialogue: 0,0:00:59.97,0:01:00.09,Cap,,0,0,0,,{\1c&H00FFFFFF&}achhe {\1c&H00FFFFFF&}tareeqe {\1c&H0038C8FF&}se
+Dialogue: 0,0:01:00.09,0:01:00.39,Cap,,0,0,0,,{\1c&H0038C8FF&}define {\1c&H00FFFFFF&}kiya {\1c&H00FFFFFF&}hai
+Dialogue: 0,0:01:00.39,0:01:00.57,Cap,,0,0,0,,{\1c&H00FFFFFF&}define {\1c&H0038C8FF&}kiya {\1c&H00FFFFFF&}hai
+Dialogue: 0,0:01:00.57,0:01:00.73,Cap,,0,0,0,,{\1c&H00FFFFFF&}define {\1c&H00FFFFFF&}kiya {\1c&H0038C8FF&}hai
+Dialogue: 0,0:01:00.73,0:01:00.93,Cap,,0,0,0,,{\1c&H0038C8FF&}Is {\1c&H00FFFFFF&}ke {\1c&H00FFFFFF&}alawa {\1c&H00FFFFFF&}is
+Dialogue: 0,0:01:00.93,0:01:01.09,Cap,,0,0,0,,{\1c&H00FFFFFF&}Is {\1c&H0038C8FF&}ke {\1c&H00FFFFFF&}alawa {\1c&H00FFFFFF&}is
+Dialogue: 0,0:01:01.09,0:01:01.63,Cap,,0,0,0,,{\1c&H00FFFFFF&}Is {\1c&H00FFFFFF&}ke {\1c&H0038C8FF&}alawa {\1c&H00FFFFFF&}is
+Dialogue: 0,0:01:01.63,0:01:02.01,Cap,,0,0,0,,{\1c&H00FFFFFF&}Is {\1c&H00FFFFFF&}ke {\1c&H00FFFFFF&}alawa {\1c&H0038C8FF&}is
+Dialogue: 0,0:01:02.01,0:01:02.35,Cap,,0,0,0,,{\1c&H0038C8FF&}video {\1c&H00FFFFFF&}ke {\1c&H00FFFFFF&}end {\1c&H00FFFFFF&}ke
+Dialogue: 0,0:01:02.35,0:01:02.45,Cap,,0,0,0,,{\1c&H00FFFFFF&}video {\1c&H0038C8FF&}ke {\1c&H00FFFFFF&}end {\1c&H00FFFFFF&}ke
+Dialogue: 0,0:01:02.45,0:01:02.71,Cap,,0,0,0,,{\1c&H00FFFFFF&}video {\1c&H00FFFFFF&}ke {\1c&H0038C8FF&}end {\1c&H00FFFFFF&}ke
+Dialogue: 0,0:01:02.71,0:01:02.81,Cap,,0,0,0,,{\1c&H00FFFFFF&}video {\1c&H00FFFFFF&}ke {\1c&H00FFFFFF&}end {\1c&H0038C8FF&}ke
+Dialogue: 0,0:01:02.81,0:01:03.07,Cap,,0,0,0,,{\1c&H0038C8FF&}ooper {\1c&H00FFFFFF&}ek {\1c&H00FFFFFF&}bohot
+Dialogue: 0,0:01:03.07,0:01:03.27,Cap,,0,0,0,,{\1c&H00FFFFFF&}ooper {\1c&H0038C8FF&}ek {\1c&H00FFFFFF&}bohot
+Dialogue: 0,0:01:03.27,0:01:03.63,Cap,,0,0,0,,{\1c&H00FFFFFF&}ooper {\1c&H00FFFFFF&}ek {\1c&H0038C8FF&}bohot
+Dialogue: 0,0:01:03.63,0:01:04.19,Cap,,0,0,0,,{\1c&H0038C8FF&}achha {\1c&H00FFFFFF&}Golden
+Dialogue: 0,0:01:04.19,0:01:05.09,Cap,,0,0,0,,{\1c&H00FFFFFF&}achha {\1c&H0038C8FF&}Golden
+Dialogue: 0,0:01:05.09,0:01:05.45,Cap,,0,0,0,,{\1c&H0038C8FF&}Package {\1c&H00FFFFFF&}hai {\1c&H00FFFFFF&}meri
+Dialogue: 0,0:01:05.45,0:01:05.53,Cap,,0,0,0,,{\1c&H00FFFFFF&}Package {\1c&H0038C8FF&}hai {\1c&H00FFFFFF&}meri
+Dialogue: 0,0:01:05.53,0:01:05.75,Cap,,0,0,0,,{\1c&H00FFFFFF&}Package {\1c&H00FFFFFF&}hai {\1c&H0038C8FF&}meri
+Dialogue: 0,0:01:05.75,0:01:05.87,Cap,,0,0,0,,{\1c&H0038C8FF&}taraf {\1c&H00FFFFFF&}se {\1c&H00FFFFFF&}aap {\1c&H00FFFFFF&}sab
+Dialogue: 0,0:01:05.87,0:01:05.99,Cap,,0,0,0,,{\1c&H00FFFFFF&}taraf {\1c&H0038C8FF&}se {\1c&H00FFFFFF&}aap {\1c&H00FFFFFF&}sab
+Dialogue: 0,0:01:05.99,0:01:06.09,Cap,,0,0,0,,{\1c&H00FFFFFF&}taraf {\1c&H00FFFFFF&}se {\1c&H0038C8FF&}aap {\1c&H00FFFFFF&}sab
+Dialogue: 0,0:01:06.09,0:01:06.27,Cap,,0,0,0,,{\1c&H00FFFFFF&}taraf {\1c&H00FFFFFF&}se {\1c&H00FFFFFF&}aap {\1c&H0038C8FF&}sab
+Dialogue: 0,0:01:06.27,0:01:06.37,Cap,,0,0,0,,{\1c&H0038C8FF&}ke {\1c&H00FFFFFF&}liye
+Dialogue: 0,0:01:06.37,0:01:06.59,Cap,,0,0,0,,{\1c&H00FFFFFF&}ke {\1c&H0038C8FF&}liye
+Dialogue: 0,0:01:06.59,0:01:06.71,Cap,,0,0,0,,{\1c&H0038C8FF&}To {\1c&H00FFFFFF&}is {\1c&H00FFFFFF&}ko
+Dialogue: 0,0:01:06.71,0:01:06.87,Cap,,0,0,0,,{\1c&H00FFFFFF&}To {\1c&H0038C8FF&}is {\1c&H00FFFFFF&}ko
+Dialogue: 0,0:01:06.87,0:01:06.97,Cap,,0,0,0,,{\1c&H00FFFFFF&}To {\1c&H00FFFFFF&}is {\1c&H0038C8FF&}ko
+Dialogue: 0,0:01:06.97,0:01:07.27,Cap,,0,0,0,,{\1c&H0038C8FF&}video {\1c&H00FFFFFF&}ko {\1c&H00FFFFFF&}end {\1c&H00FFFFFF&}tak
+Dialogue: 0,0:01:07.27,0:01:07.33,Cap,,0,0,0,,{\1c&H00FFFFFF&}video {\1c&H0038C8FF&}ko {\1c&H00FFFFFF&}end {\1c&H00FFFFFF&}tak
+Dialogue: 0,0:01:07.33,0:01:07.53,Cap,,0,0,0,,{\1c&H00FFFFFF&}video {\1c&H00FFFFFF&}ko {\1c&H0038C8FF&}end {\1c&H00FFFFFF&}tak
+Dialogue: 0,0:01:07.53,0:01:07.59,Cap,,0,0,0,,{\1c&H00FFFFFF&}video {\1c&H00FFFFFF&}ko {\1c&H00FFFFFF&}end {\1c&H0038C8FF&}tak
+Dialogue: 0,0:01:07.59,0:01:07.81,Cap,,0,0,0,,{\1c&H0038C8FF&}zaroor {\1c&H00FFFFFF&}dekhiye {\1c&H00FFFFFF&}ga
+Dialogue: 0,0:01:07.81,0:01:08.05,Cap,,0,0,0,,{\1c&H00FFFFFF&}zaroor {\1c&H0038C8FF&}dekhiye {\1c&H00FFFFFF&}ga
+Dialogue: 0,0:01:08.05,0:01:08.17,Cap,,0,0,0,,{\1c&H00FFFFFF&}zaroor {\1c&H00FFFFFF&}dekhiye {\1c&H0038C8FF&}ga
+Dialogue: 0,0:01:08.17,0:01:08.39,Cap,,0,0,0,,{\1c&H0038C8FF&}Mere {\1c&H00FFFFFF&}channel {\1c&H00FFFFFF&}pe {\1c&H00FFFFFF&}jaayen
+Dialogue: 0,0:01:08.39,0:01:08.57,Cap,,0,0,0,,{\1c&H00FFFFFF&}Mere {\1c&H0038C8FF&}channel {\1c&H00FFFFFF&}pe {\1c&H00FFFFFF&}jaayen
+Dialogue: 0,0:01:08.57,0:01:08.67,Cap,,0,0,0,,{\1c&H00FFFFFF&}Mere {\1c&H00FFFFFF&}channel {\1c&H0038C8FF&}pe {\1c&H00FFFFFF&}jaayen
+Dialogue: 0,0:01:08.67,0:01:08.95,Cap,,0,0,0,,{\1c&H00FFFFFF&}Mere {\1c&H00FFFFFF&}channel {\1c&H00FFFFFF&}pe {\1c&H0038C8FF&}jaayen
+Dialogue: 0,0:01:08.95,0:01:09.41,Cap,,0,0,0,,{\1c&H0038C8FF&}ek {\1c&H00FFFFFF&}long {\1c&H00FFFFFF&}video
+Dialogue: 0,0:01:09.41,0:01:09.63,Cap,,0,0,0,,{\1c&H00FFFFFF&}ek {\1c&H0038C8FF&}long {\1c&H00FFFFFF&}video
+Dialogue: 0,0:01:09.63,0:01:09.83,Cap,,0,0,0,,{\1c&H00FFFFFF&}ek {\1c&H00FFFFFF&}long {\1c&H0038C8FF&}video
+Dialogue: 0,0:01:09.83,0:01:09.99,Cap,,0,0,0,,{\1c&H0038C8FF&}maine {\1c&H00FFFFFF&}banayi {\1c&H00FFFFFF&}hai
+Dialogue: 0,0:01:09.99,0:01:10.33,Cap,,0,0,0,,{\1c&H00FFFFFF&}maine {\1c&H0038C8FF&}banayi {\1c&H00FFFFFF&}hai
+Dialogue: 0,0:01:10.33,0:01:10.41,Cap,,0,0,0,,{\1c&H00FFFFFF&}maine {\1c&H00FFFFFF&}banayi {\1c&H0038C8FF&}hai
+Dialogue: 0,0:01:10.41,0:01:10.53,Cap,,0,0,0,,{\1c&H0038C8FF&}is {\1c&H00FFFFFF&}ko {\1c&H00FFFFFF&}dekhein {\1c&H00FFFFFF&}aap
+Dialogue: 0,0:01:10.53,0:01:10.63,Cap,,0,0,0,,{\1c&H00FFFFFF&}is {\1c&H0038C8FF&}ko {\1c&H00FFFFFF&}dekhein {\1c&H00FFFFFF&}aap
+Dialogue: 0,0:01:10.63,0:01:11.09,Cap,,0,0,0,,{\1c&H00FFFFFF&}is {\1c&H00FFFFFF&}ko {\1c&H0038C8FF&}dekhein {\1c&H00FFFFFF&}aap
+Dialogue: 0,0:01:11.09,0:01:11.75,Cap,,0,0,0,,{\1c&H00FFFFFF&}is {\1c&H00FFFFFF&}ko {\1c&H00FFFFFF&}dekhein {\1c&H0038C8FF&}aap
+Dialogue: 0,0:01:18.45,0:01:18.63,Cap,,0,0,0,,{\1c&H0038C8FF&}Hamari {\1c&H00FFFFFF&}collaboration {\1c&H00FFFFFF&}hui
+Dialogue: 0,0:01:18.63,0:01:19.21,Cap,,0,0,0,,{\1c&H00FFFFFF&}Hamari {\1c&H0038C8FF&}collaboration {\1c&H00FFFFFF&}hui
+Dialogue: 0,0:01:19.21,0:01:19.39,Cap,,0,0,0,,{\1c&H00FFFFFF&}Hamari {\1c&H00FFFFFF&}collaboration {\1c&H0038C8FF&}hui
+Dialogue: 0,0:01:19.39,0:01:19.47,Cap,,0,0,0,,{\1c&H0038C8FF&}hai {\1c&H00FFFFFF&}ek {\1c&H00FFFFFF&}company {\1c&H00FFFFFF&}ke {\1c&H00FFFFFF&}saath
+Dialogue: 0,0:01:19.47,0:01:19.57,Cap,,0,0,0,,{\1c&H00FFFFFF&}hai {\1c&H0038C8FF&}ek {\1c&H00FFFFFF&}company {\1c&H00FFFFFF&}ke {\1c&H00FFFFFF&}saath
+Dialogue: 0,0:01:19.57,0:01:19.83,Cap,,0,0,0,,{\1c&H00FFFFFF&}hai {\1c&H00FFFFFF&}ek {\1c&H0038C8FF&}company {\1c&H00FFFFFF&}ke {\1c&H00FFFFFF&}saath
+Dialogue: 0,0:01:19.83,0:01:19.91,Cap,,0,0,0,,{\1c&H00FFFFFF&}hai {\1c&H00FFFFFF&}ek {\1c&H00FFFFFF&}company {\1c&H0038C8FF&}ke {\1c&H00FFFFFF&}saath
+Dialogue: 0,0:01:19.91,0:01:20.55,Cap,,0,0,0,,{\1c&H00FFFFFF&}hai {\1c&H00FFFFFF&}ek {\1c&H00FFFFFF&}company {\1c&H00FFFFFF&}ke {\1c&H0038C8FF&}saath
+Dialogue: 0,0:01:20.55,0:01:20.63,Cap,,0,0,0,,{\1c&H0038C8FF&}to {\1c&H00FFFFFF&}wo {\1c&H00FFFFFF&}main {\1c&H00FFFFFF&}is
+Dialogue: 0,0:01:20.63,0:01:20.79,Cap,,0,0,0,,{\1c&H00FFFFFF&}to {\1c&H0038C8FF&}wo {\1c&H00FFFFFF&}main {\1c&H00FFFFFF&}is
+Dialogue: 0,0:01:20.79,0:01:20.91,Cap,,0,0,0,,{\1c&H00FFFFFF&}to {\1c&H00FFFFFF&}wo {\1c&H0038C8FF&}main {\1c&H00FFFFFF&}is
+Dialogue: 0,0:01:20.91,0:01:21.01,Cap,,0,0,0,,{\1c&H00FFFFFF&}to {\1c&H00FFFFFF&}wo {\1c&H00FFFFFF&}main {\1c&H0038C8FF&}is
+Dialogue: 0,0:01:21.01,0:01:21.11,Cap,,0,0,0,,{\1c&H0038C8FF&}ke {\1c&H00FFFFFF&}baare {\1c&H00FFFFFF&}mein {\1c&H00FFFFFF&}sara
+Dialogue: 0,0:01:21.11,0:01:21.37,Cap,,0,0,0,,{\1c&H00FFFFFF&}ke {\1c&H0038C8FF&}baare {\1c&H00FFFFFF&}mein {\1c&H00FFFFFF&}sara
+Dialogue: 0,0:01:21.37,0:01:21.67,Cap,,0,0,0,,{\1c&H00FFFFFF&}ke {\1c&H00FFFFFF&}baare {\1c&H00FFFFFF&}mein {\1c&H0038C8FF&}sara
+Dialogue: 0,0:01:21.67,0:01:21.89,Cap,,0,0,0,,{\1c&H0038C8FF&}kuch {\1c&H00FFFFFF&}main {\1c&H00FFFFFF&}bare
+Dialogue: 0,0:01:21.89,0:01:21.91,Cap,,0,0,0,,{\1c&H00FFFFFF&}kuch {\1c&H0038C8FF&}main {\1c&H00FFFFFF&}bare
+Dialogue: 0,0:01:21.91,0:01:22.11,Cap,,0,0,0,,{\1c&H00FFFFFF&}kuch {\1c&H00FFFFFF&}main {\1c&H0038C8FF&}bare
+Dialogue: 0,0:01:22.11,0:01:22.33,Cap,,0,0,0,,{\1c&H0038C8FF&}achhe {\1c&H00FFFFFF&}tareeqe {\1c&H00FFFFFF&}se
+Dialogue: 0,0:01:22.33,0:01:22.53,Cap,,0,0,0,,{\1c&H00FFFFFF&}achhe {\1c&H0038C8FF&}tareeqe {\1c&H00FFFFFF&}se
+Dialogue: 0,0:01:22.53,0:01:22.59,Cap,,0,0,0,,{\1c&H00FFFFFF&}achhe {\1c&H00FFFFFF&}tareeqe {\1c&H0038C8FF&}se
+Dialogue: 0,0:01:22.59,0:01:22.89,Cap,,0,0,0,,{\1c&H0038C8FF&}define {\1c&H00FFFFFF&}karun {\1c&H00FFFFFF&}ga
+Dialogue: 0,0:01:22.89,0:01:23.13,Cap,,0,0,0,,{\1c&H00FFFFFF&}define {\1c&H0038C8FF&}karun {\1c&H00FFFFFF&}ga
+Dialogue: 0,0:01:23.13,0:01:23.43,Cap,,0,0,0,,{\1c&H00FFFFFF&}define {\1c&H00FFFFFF&}karun {\1c&H0038C8FF&}ga
+Dialogue: 0,0:01:23.43,0:01:23.61,Cap,,0,0,0,,{\1c&H0038C8FF&}To {\1c&H00FFFFFF&}aap {\1c&H00FFFFFF&}dekhein {\1c&H00FFFFFF&}end
+Dialogue: 0,0:01:23.61,0:01:23.73,Cap,,0,0,0,,{\1c&H00FFFFFF&}To {\1c&H0038C8FF&}aap {\1c&H00FFFFFF&}dekhein {\1c&H00FFFFFF&}end
+Dialogue: 0,0:01:23.73,0:01:24.05,Cap,,0,0,0,,{\1c&H00FFFFFF&}To {\1c&H00FFFFFF&}aap {\1c&H0038C8FF&}dekhein {\1c&H00FFFFFF&}end
+Dialogue: 0,0:01:24.05,0:01:24.51,Cap,,0,0,0,,{\1c&H00FFFFFF&}To {\1c&H00FFFFFF&}aap {\1c&H00FFFFFF&}dekhein {\1c&H0038C8FF&}end
+Dialogue: 0,0:01:24.51,0:01:24.63,Cap,,0,0,0,,{\1c&H0038C8FF&}tak {\1c&H00FFFFFF&}aur {\1c&H00FFFFFF&}subscribe
+Dialogue: 0,0:01:24.63,0:01:24.79,Cap,,0,0,0,,{\1c&H00FFFFFF&}tak {\1c&H0038C8FF&}aur {\1c&H00FFFFFF&}subscribe
+Dialogue: 0,0:01:24.79,0:01:25.39,Cap,,0,0,0,,{\1c&H00FFFFFF&}tak {\1c&H00FFFFFF&}aur {\1c&H0038C8FF&}subscribe
+Dialogue: 0,0:01:25.39,0:01:25.57,Cap,,0,0,0,,{\1c&H0038C8FF&}karein {\1c&H00FFFFFF&}is {\1c&H00FFFFFF&}channel {\1c&H00FFFFFF&}ko
+Dialogue: 0,0:01:25.57,0:01:25.63,Cap,,0,0,0,,{\1c&H00FFFFFF&}karein {\1c&H0038C8FF&}is {\1c&H00FFFFFF&}channel {\1c&H00FFFFFF&}ko
+Dialogue: 0,0:01:25.63,0:01:25.83,Cap,,0,0,0,,{\1c&H00FFFFFF&}karein {\1c&H00FFFFFF&}is {\1c&H0038C8FF&}channel {\1c&H00FFFFFF&}ko
+Dialogue: 0,0:01:25.83,0:01:26.01,Cap,,0,0,0,,{\1c&H00FFFFFF&}karein {\1c&H00FFFFFF&}is {\1c&H00FFFFFF&}channel {\1c&H0038C8FF&}ko
+Dialogue: 0,0:01:26.01,0:01:26.37,Cap,,0,0,0,,{\1c&H0038C8FF&}Thank {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}very {\1c&H00FFFFFF&}much
+Dialogue: 0,0:01:26.37,0:01:26.53,Cap,,0,0,0,,{\1c&H00FFFFFF&}Thank {\1c&H0038C8FF&}you {\1c&H00FFFFFF&}very {\1c&H00FFFFFF&}much
+Dialogue: 0,0:01:26.53,0:01:26.69,Cap,,0,0,0,,{\1c&H00FFFFFF&}Thank {\1c&H00FFFFFF&}you {\1c&H0038C8FF&}very {\1c&H00FFFFFF&}much
+Dialogue: 0,0:01:26.69,0:01:26.77,Cap,,0,0,0,,{\1c&H00FFFFFF&}Thank {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}very {\1c&H0038C8FF&}much
+Dialogue: 0,0:01:26.77,0:01:26.97,Cap,,0,0,0,,{\1c&H0038C8FF&}have {\1c&H00FFFFFF&}a {\1c&H00FFFFFF&}good {\1c&H00FFFFFF&}day
+Dialogue: 0,0:01:26.97,0:01:27.05,Cap,,0,0,0,,{\1c&H00FFFFFF&}have {\1c&H0038C8FF&}a {\1c&H00FFFFFF&}good {\1c&H00FFFFFF&}day
+Dialogue: 0,0:01:27.05,0:01:27.25,Cap,,0,0,0,,{\1c&H00FFFFFF&}have {\1c&H00FFFFFF&}a {\1c&H0038C8FF&}good {\1c&H00FFFFFF&}day
+Dialogue: 0,0:01:27.25,0:01:27.41,Cap,,0,0,0,,{\1c&H00FFFFFF&}have {\1c&H00FFFFFF&}a {\1c&H00FFFFFF&}good {\1c&H0038C8FF&}day
+Dialogue: 0,0:01:27.41,0:01:27.50,Cap,,0,0,0,,{\1c&H0038C8FF&}bye {\1c&H00FFFFFF&}bye!
+Dialogue: 0,0:01:27.50,0:01:27.96,Cap,,0,0,0,,{\1c&H00FFFFFF&}bye {\1c&H0038C8FF&}bye!

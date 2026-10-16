@@ -23,6 +23,12 @@ Two more files went over the limit and got the same split:
 
 Rebuild them the same way: `cat "<file>".part* > "<file>"`.
 
+## Added 2026-10-17
+
+- `instagram/10 - Dubai Golden Visa and Investor Visa (YouTube).mp4` (571,021,347 bytes), stored as `.part00` to `.part06`.
+
+The six intermediate parts in `job8/parts/` (each about 108 MB) are not committed. They were joined without re-encoding into video 10, so the split above holds the same footage. Run `render.py job8 v1` (and so on) to get them back.
+
 ## Rebuild the video
 
 Git Bash, macOS or Linux:

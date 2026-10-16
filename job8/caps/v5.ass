@@ -1,0 +1,393 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat ExtraBold,70,&H00FFFFFF,&H00FFFFFF,&H00101010,&H96000000,0,0,0,0,100,100,0,0,1,6,2,2,60,60,70,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.40,0:00:01.08,Cap,,0,0,0,,{\1c&H0038C8FF&}Golden {\1c&H00FFFFFF&}visa
+Dialogue: 0,0:00:01.08,0:00:02.26,Cap,,0,0,0,,{\1c&H00FFFFFF&}Golden {\1c&H0038C8FF&}visa
+Dialogue: 0,0:00:02.26,0:00:02.62,Cap,,0,0,0,,{\1c&H0038C8FF&}is {\1c&H00FFFFFF&}a {\1c&H00FFFFFF&}10 {\1c&H00FFFFFF&}year {\1c&H00FFFFFF&}Dubai
+Dialogue: 0,0:00:02.62,0:00:02.76,Cap,,0,0,0,,{\1c&H00FFFFFF&}is {\1c&H0038C8FF&}a {\1c&H00FFFFFF&}10 {\1c&H00FFFFFF&}year {\1c&H00FFFFFF&}Dubai
+Dialogue: 0,0:00:02.76,0:00:02.92,Cap,,0,0,0,,{\1c&H00FFFFFF&}is {\1c&H00FFFFFF&}a {\1c&H0038C8FF&}10 {\1c&H00FFFFFF&}year {\1c&H00FFFFFF&}Dubai
+Dialogue: 0,0:00:02.92,0:00:03.18,Cap,,0,0,0,,{\1c&H00FFFFFF&}is {\1c&H00FFFFFF&}a {\1c&H00FFFFFF&}10 {\1c&H0038C8FF&}year {\1c&H00FFFFFF&}Dubai
+Dialogue: 0,0:00:03.18,0:00:03.70,Cap,,0,0,0,,{\1c&H00FFFFFF&}is {\1c&H00FFFFFF&}a {\1c&H00FFFFFF&}10 {\1c&H00FFFFFF&}year {\1c&H0038C8FF&}Dubai
+Dialogue: 0,0:00:03.70,0:00:04.62,Cap,,0,0,0,,{\1c&H0038C8FF&}PR {\1c&H00FFFFFF&}permanent {\1c&H00FFFFFF&}residence
+Dialogue: 0,0:00:04.62,0:00:05.00,Cap,,0,0,0,,{\1c&H00FFFFFF&}PR {\1c&H0038C8FF&}permanent {\1c&H00FFFFFF&}residence
+Dialogue: 0,0:00:05.00,0:00:05.42,Cap,,0,0,0,,{\1c&H00FFFFFF&}PR {\1c&H00FFFFFF&}permanent {\1c&H0038C8FF&}residence
+Dialogue: 0,0:00:05.42,0:00:05.76,Cap,,0,0,0,,{\1c&H0038C8FF&}visa {\1c&H00FFFFFF&}in {\1c&H00FFFFFF&}which {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}don't
+Dialogue: 0,0:00:05.76,0:00:06.10,Cap,,0,0,0,,{\1c&H00FFFFFF&}visa {\1c&H0038C8FF&}in {\1c&H00FFFFFF&}which {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}don't
+Dialogue: 0,0:00:06.10,0:00:06.30,Cap,,0,0,0,,{\1c&H00FFFFFF&}visa {\1c&H00FFFFFF&}in {\1c&H0038C8FF&}which {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}don't
+Dialogue: 0,0:00:06.30,0:00:06.74,Cap,,0,0,0,,{\1c&H00FFFFFF&}visa {\1c&H00FFFFFF&}in {\1c&H00FFFFFF&}which {\1c&H0038C8FF&}you {\1c&H00FFFFFF&}don't
+Dialogue: 0,0:00:06.74,0:00:06.92,Cap,,0,0,0,,{\1c&H00FFFFFF&}visa {\1c&H00FFFFFF&}in {\1c&H00FFFFFF&}which {\1c&H00FFFFFF&}you {\1c&H0038C8FF&}don't
+Dialogue: 0,0:00:06.92,0:00:07.30,Cap,,0,0,0,,{\1c&H0038C8FF&}require {\1c&H00FFFFFF&}any {\1c&H00FFFFFF&}re-entry {\1c&H00FFFFFF&}to
+Dialogue: 0,0:00:07.30,0:00:07.60,Cap,,0,0,0,,{\1c&H00FFFFFF&}require {\1c&H0038C8FF&}any {\1c&H00FFFFFF&}re-entry {\1c&H00FFFFFF&}to
+Dialogue: 0,0:00:07.60,0:00:08.22,Cap,,0,0,0,,{\1c&H00FFFFFF&}require {\1c&H00FFFFFF&}any {\1c&H0038C8FF&}re-entry {\1c&H00FFFFFF&}to
+Dialogue: 0,0:00:08.22,0:00:08.54,Cap,,0,0,0,,{\1c&H00FFFFFF&}require {\1c&H00FFFFFF&}any {\1c&H00FFFFFF&}re-entry {\1c&H0038C8FF&}to
+Dialogue: 0,0:00:08.54,0:00:08.84,Cap,,0,0,0,,{\1c&H0038C8FF&}Dubai {\1c&H00FFFFFF&}It {\1c&H00FFFFFF&}means {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}don't
+Dialogue: 0,0:00:08.84,0:00:09.18,Cap,,0,0,0,,{\1c&H00FFFFFF&}Dubai {\1c&H0038C8FF&}It {\1c&H00FFFFFF&}means {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}don't
+Dialogue: 0,0:00:09.18,0:00:09.42,Cap,,0,0,0,,{\1c&H00FFFFFF&}Dubai {\1c&H00FFFFFF&}It {\1c&H0038C8FF&}means {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}don't
+Dialogue: 0,0:00:09.42,0:00:09.64,Cap,,0,0,0,,{\1c&H00FFFFFF&}Dubai {\1c&H00FFFFFF&}It {\1c&H00FFFFFF&}means {\1c&H0038C8FF&}you {\1c&H00FFFFFF&}don't
+Dialogue: 0,0:00:09.64,0:00:09.90,Cap,,0,0,0,,{\1c&H00FFFFFF&}Dubai {\1c&H00FFFFFF&}It {\1c&H00FFFFFF&}means {\1c&H00FFFFFF&}you {\1c&H0038C8FF&}don't
+Dialogue: 0,0:00:09.90,0:00:10.10,Cap,,0,0,0,,{\1c&H0038C8FF&}need {\1c&H00FFFFFF&}to {\1c&H00FFFFFF&}enter {\1c&H00FFFFFF&}Dubai
+Dialogue: 0,0:00:10.10,0:00:10.30,Cap,,0,0,0,,{\1c&H00FFFFFF&}need {\1c&H0038C8FF&}to {\1c&H00FFFFFF&}enter {\1c&H00FFFFFF&}Dubai
+Dialogue: 0,0:00:10.30,0:00:10.92,Cap,,0,0,0,,{\1c&H00FFFFFF&}need {\1c&H00FFFFFF&}to {\1c&H0038C8FF&}enter {\1c&H00FFFFFF&}Dubai
+Dialogue: 0,0:00:10.92,0:00:11.18,Cap,,0,0,0,,{\1c&H00FFFFFF&}need {\1c&H00FFFFFF&}to {\1c&H00FFFFFF&}enter {\1c&H0038C8FF&}Dubai
+Dialogue: 0,0:00:11.18,0:00:11.60,Cap,,0,0,0,,{\1c&H0038C8FF&}again {\1c&H00FFFFFF&}and {\1c&H00FFFFFF&}again {\1c&H00FFFFFF&}after
+Dialogue: 0,0:00:11.60,0:00:11.72,Cap,,0,0,0,,{\1c&H00FFFFFF&}again {\1c&H0038C8FF&}and {\1c&H00FFFFFF&}again {\1c&H00FFFFFF&}after
+Dialogue: 0,0:00:11.72,0:00:11.98,Cap,,0,0,0,,{\1c&H00FFFFFF&}again {\1c&H00FFFFFF&}and {\1c&H0038C8FF&}again {\1c&H00FFFFFF&}after
+Dialogue: 0,0:00:11.98,0:00:12.40,Cap,,0,0,0,,{\1c&H00FFFFFF&}again {\1c&H00FFFFFF&}and {\1c&H00FFFFFF&}again {\1c&H0038C8FF&}after
+Dialogue: 0,0:00:12.40,0:00:12.56,Cap,,0,0,0,,{\1c&H0038C8FF&}the {\1c&H00FFFFFF&}period {\1c&H00FFFFFF&}of {\1c&H00FFFFFF&}six {\1c&H00FFFFFF&}months
+Dialogue: 0,0:00:12.56,0:00:12.74,Cap,,0,0,0,,{\1c&H00FFFFFF&}the {\1c&H0038C8FF&}period {\1c&H00FFFFFF&}of {\1c&H00FFFFFF&}six {\1c&H00FFFFFF&}months
+Dialogue: 0,0:00:12.74,0:00:12.86,Cap,,0,0,0,,{\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}period {\1c&H0038C8FF&}of {\1c&H00FFFFFF&}six {\1c&H00FFFFFF&}months
+Dialogue: 0,0:00:12.86,0:00:13.02,Cap,,0,0,0,,{\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}period {\1c&H00FFFFFF&}of {\1c&H0038C8FF&}six {\1c&H00FFFFFF&}months
+Dialogue: 0,0:00:13.02,0:00:13.28,Cap,,0,0,0,,{\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}period {\1c&H00FFFFFF&}of {\1c&H00FFFFFF&}six {\1c&H0038C8FF&}months
+Dialogue: 0,0:00:13.28,0:00:13.60,Cap,,0,0,0,,{\1c&H0038C8FF&}any {\1c&H00FFFFFF&}period {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}want {\1c&H00FFFFFF&}to
+Dialogue: 0,0:00:13.60,0:00:13.82,Cap,,0,0,0,,{\1c&H00FFFFFF&}any {\1c&H0038C8FF&}period {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}want {\1c&H00FFFFFF&}to
+Dialogue: 0,0:00:13.82,0:00:14.00,Cap,,0,0,0,,{\1c&H00FFFFFF&}any {\1c&H00FFFFFF&}period {\1c&H0038C8FF&}you {\1c&H00FFFFFF&}want {\1c&H00FFFFFF&}to
+Dialogue: 0,0:00:14.00,0:00:14.14,Cap,,0,0,0,,{\1c&H00FFFFFF&}any {\1c&H00FFFFFF&}period {\1c&H00FFFFFF&}you {\1c&H0038C8FF&}want {\1c&H00FFFFFF&}to
+Dialogue: 0,0:00:14.14,0:00:14.28,Cap,,0,0,0,,{\1c&H00FFFFFF&}any {\1c&H00FFFFFF&}period {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}want {\1c&H0038C8FF&}to
+Dialogue: 0,0:00:14.28,0:00:14.52,Cap,,0,0,0,,{\1c&H0038C8FF&}stay {\1c&H00FFFFFF&}You {\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}stay {\1c&H00FFFFFF&}Dubai
+Dialogue: 0,0:00:14.52,0:00:14.98,Cap,,0,0,0,,{\1c&H00FFFFFF&}stay {\1c&H0038C8FF&}You {\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}stay {\1c&H00FFFFFF&}Dubai
+Dialogue: 0,0:00:14.98,0:00:15.14,Cap,,0,0,0,,{\1c&H00FFFFFF&}stay {\1c&H00FFFFFF&}You {\1c&H0038C8FF&}can {\1c&H00FFFFFF&}stay {\1c&H00FFFFFF&}Dubai
+Dialogue: 0,0:00:15.14,0:00:15.40,Cap,,0,0,0,,{\1c&H00FFFFFF&}stay {\1c&H00FFFFFF&}You {\1c&H00FFFFFF&}can {\1c&H0038C8FF&}stay {\1c&H00FFFFFF&}Dubai
+Dialogue: 0,0:00:15.40,0:00:15.66,Cap,,0,0,0,,{\1c&H00FFFFFF&}stay {\1c&H00FFFFFF&}You {\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}stay {\1c&H0038C8FF&}Dubai
+Dialogue: 0,0:00:15.66,0:00:16.06,Cap,,0,0,0,,{\1c&H0038C8FF&}number {\1c&H00FFFFFF&}two
+Dialogue: 0,0:00:16.06,0:00:16.48,Cap,,0,0,0,,{\1c&H00FFFFFF&}number {\1c&H0038C8FF&}two
+Dialogue: 0,0:00:16.48,0:00:16.90,Cap,,0,0,0,,{\1c&H0038C8FF&}You {\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}open {\1c&H00FFFFFF&}a {\1c&H00FFFFFF&}bank
+Dialogue: 0,0:00:16.90,0:00:17.06,Cap,,0,0,0,,{\1c&H00FFFFFF&}You {\1c&H0038C8FF&}can {\1c&H00FFFFFF&}open {\1c&H00FFFFFF&}a {\1c&H00FFFFFF&}bank
+Dialogue: 0,0:00:17.06,0:00:17.20,Cap,,0,0,0,,{\1c&H00FFFFFF&}You {\1c&H00FFFFFF&}can {\1c&H0038C8FF&}open {\1c&H00FFFFFF&}a {\1c&H00FFFFFF&}bank
+Dialogue: 0,0:00:17.20,0:00:17.36,Cap,,0,0,0,,{\1c&H00FFFFFF&}You {\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}open {\1c&H0038C8FF&}a {\1c&H00FFFFFF&}bank
+Dialogue: 0,0:00:17.36,0:00:17.56,Cap,,0,0,0,,{\1c&H00FFFFFF&}You {\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}open {\1c&H00FFFFFF&}a {\1c&H0038C8FF&}bank
+Dialogue: 0,0:00:17.56,0:00:17.86,Cap,,0,0,0,,{\1c&H0038C8FF&}account {\1c&H00FFFFFF&}number {\1c&H00FFFFFF&}three {\1c&H00FFFFFF&}You
+Dialogue: 0,0:00:17.86,0:00:18.12,Cap,,0,0,0,,{\1c&H00FFFFFF&}account {\1c&H0038C8FF&}number {\1c&H00FFFFFF&}three {\1c&H00FFFFFF&}You
+Dialogue: 0,0:00:18.12,0:00:18.52,Cap,,0,0,0,,{\1c&H00FFFFFF&}account {\1c&H00FFFFFF&}number {\1c&H0038C8FF&}three {\1c&H00FFFFFF&}You
+Dialogue: 0,0:00:18.52,0:00:18.94,Cap,,0,0,0,,{\1c&H00FFFFFF&}account {\1c&H00FFFFFF&}number {\1c&H00FFFFFF&}three {\1c&H0038C8FF&}You
+Dialogue: 0,0:00:18.94,0:00:19.10,Cap,,0,0,0,,{\1c&H0038C8FF&}can {\1c&H00FFFFFF&}take {\1c&H00FFFFFF&}a {\1c&H00FFFFFF&}medical
+Dialogue: 0,0:00:19.10,0:00:19.26,Cap,,0,0,0,,{\1c&H00FFFFFF&}can {\1c&H0038C8FF&}take {\1c&H00FFFFFF&}a {\1c&H00FFFFFF&}medical
+Dialogue: 0,0:00:19.26,0:00:19.36,Cap,,0,0,0,,{\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}take {\1c&H0038C8FF&}a {\1c&H00FFFFFF&}medical
+Dialogue: 0,0:00:19.36,0:00:19.58,Cap,,0,0,0,,{\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}take {\1c&H00FFFFFF&}a {\1c&H0038C8FF&}medical
+Dialogue: 0,0:00:19.58,0:00:20.00,Cap,,0,0,0,,{\1c&H0038C8FF&}insurance {\1c&H00FFFFFF&}medical
+Dialogue: 0,0:00:20.00,0:00:20.42,Cap,,0,0,0,,{\1c&H00FFFFFF&}insurance {\1c&H0038C8FF&}medical
+Dialogue: 0,0:00:20.42,0:00:20.80,Cap,,0,0,0,,{\1c&H0038C8FF&}insurance {\1c&H00FFFFFF&}means {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}your
+Dialogue: 0,0:00:20.80,0:00:21.02,Cap,,0,0,0,,{\1c&H00FFFFFF&}insurance {\1c&H0038C8FF&}means {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}your
+Dialogue: 0,0:00:21.02,0:00:21.32,Cap,,0,0,0,,{\1c&H00FFFFFF&}insurance {\1c&H00FFFFFF&}means {\1c&H0038C8FF&}you {\1c&H00FFFFFF&}your
+Dialogue: 0,0:00:21.32,0:00:21.56,Cap,,0,0,0,,{\1c&H00FFFFFF&}insurance {\1c&H00FFFFFF&}means {\1c&H00FFFFFF&}you {\1c&H0038C8FF&}your
+Dialogue: 0,0:00:21.56,0:00:21.86,Cap,,0,0,0,,{\1c&H0038C8FF&}family {\1c&H00FFFFFF&}your {\1c&H00FFFFFF&}servants {\1c&H00FFFFFF&}are
+Dialogue: 0,0:00:21.86,0:00:22.08,Cap,,0,0,0,,{\1c&H00FFFFFF&}family {\1c&H0038C8FF&}your {\1c&H00FFFFFF&}servants {\1c&H00FFFFFF&}are
+Dialogue: 0,0:00:22.08,0:00:22.66,Cap,,0,0,0,,{\1c&H00FFFFFF&}family {\1c&H00FFFFFF&}your {\1c&H0038C8FF&}servants {\1c&H00FFFFFF&}are
+Dialogue: 0,0:00:22.66,0:00:22.90,Cap,,0,0,0,,{\1c&H00FFFFFF&}family {\1c&H00FFFFFF&}your {\1c&H00FFFFFF&}servants {\1c&H0038C8FF&}are
+Dialogue: 0,0:00:22.90,0:00:23.24,Cap,,0,0,0,,{\1c&H0038C8FF&}getting {\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}medical
+Dialogue: 0,0:00:23.24,0:00:23.36,Cap,,0,0,0,,{\1c&H00FFFFFF&}getting {\1c&H0038C8FF&}the {\1c&H00FFFFFF&}medical
+Dialogue: 0,0:00:23.36,0:00:23.60,Cap,,0,0,0,,{\1c&H00FFFFFF&}getting {\1c&H00FFFFFF&}the {\1c&H0038C8FF&}medical
+Dialogue: 0,0:00:23.60,0:00:24.12,Cap,,0,0,0,,{\1c&H0038C8FF&}insurance {\1c&H00FFFFFF&}and {\1c&H00FFFFFF&}Take {\1c&H00FFFFFF&}the
+Dialogue: 0,0:00:24.12,0:00:24.88,Cap,,0,0,0,,{\1c&H00FFFFFF&}insurance {\1c&H0038C8FF&}and {\1c&H00FFFFFF&}Take {\1c&H00FFFFFF&}the
+Dialogue: 0,0:00:24.88,0:00:25.24,Cap,,0,0,0,,{\1c&H00FFFFFF&}insurance {\1c&H00FFFFFF&}and {\1c&H0038C8FF&}Take {\1c&H00FFFFFF&}the
+Dialogue: 0,0:00:25.24,0:00:25.48,Cap,,0,0,0,,{\1c&H00FFFFFF&}insurance {\1c&H00FFFFFF&}and {\1c&H00FFFFFF&}Take {\1c&H0038C8FF&}the
+Dialogue: 0,0:00:25.48,0:00:25.84,Cap,,0,0,0,,{\1c&H0038C8FF&}medical {\1c&H00FFFFFF&}facilities
+Dialogue: 0,0:00:25.84,0:00:26.42,Cap,,0,0,0,,{\1c&H00FFFFFF&}medical {\1c&H0038C8FF&}facilities
+Dialogue: 0,0:00:26.42,0:00:26.80,Cap,,0,0,0,,{\1c&H0038C8FF&}available {\1c&H00FFFFFF&}in {\1c&H00FFFFFF&}UAE {\1c&H00FFFFFF&}five
+Dialogue: 0,0:00:26.80,0:00:27.20,Cap,,0,0,0,,{\1c&H00FFFFFF&}available {\1c&H0038C8FF&}in {\1c&H00FFFFFF&}UAE {\1c&H00FFFFFF&}five
+Dialogue: 0,0:00:27.20,0:00:27.60,Cap,,0,0,0,,{\1c&H00FFFFFF&}available {\1c&H00FFFFFF&}in {\1c&H0038C8FF&}UAE {\1c&H00FFFFFF&}five
+Dialogue: 0,0:00:27.60,0:00:27.86,Cap,,0,0,0,,{\1c&H00FFFFFF&}available {\1c&H00FFFFFF&}in {\1c&H00FFFFFF&}UAE {\1c&H0038C8FF&}five
+Dialogue: 0,0:00:27.86,0:00:28.12,Cap,,0,0,0,,{\1c&H0038C8FF&}star {\1c&H00FFFFFF&}medical {\1c&H00FFFFFF&}facilities
+Dialogue: 0,0:00:28.12,0:00:28.40,Cap,,0,0,0,,{\1c&H00FFFFFF&}star {\1c&H0038C8FF&}medical {\1c&H00FFFFFF&}facilities
+Dialogue: 0,0:00:28.40,0:00:28.74,Cap,,0,0,0,,{\1c&H00FFFFFF&}star {\1c&H00FFFFFF&}medical {\1c&H0038C8FF&}facilities
+Dialogue: 0,0:00:28.74,0:00:29.10,Cap,,0,0,0,,{\1c&H0038C8FF&}are {\1c&H00FFFFFF&}there {\1c&H00FFFFFF&}in {\1c&H00FFFFFF&}UAE {\1c&H00FFFFFF&}So
+Dialogue: 0,0:00:29.10,0:00:29.24,Cap,,0,0,0,,{\1c&H00FFFFFF&}are {\1c&H0038C8FF&}there {\1c&H00FFFFFF&}in {\1c&H00FFFFFF&}UAE {\1c&H00FFFFFF&}So
+Dialogue: 0,0:00:29.24,0:00:29.44,Cap,,0,0,0,,{\1c&H00FFFFFF&}are {\1c&H00FFFFFF&}there {\1c&H0038C8FF&}in {\1c&H00FFFFFF&}UAE {\1c&H00FFFFFF&}So
+Dialogue: 0,0:00:29.44,0:00:30.00,Cap,,0,0,0,,{\1c&H00FFFFFF&}are {\1c&H00FFFFFF&}there {\1c&H00FFFFFF&}in {\1c&H0038C8FF&}UAE {\1c&H00FFFFFF&}So
+Dialogue: 0,0:00:30.00,0:00:30.16,Cap,,0,0,0,,{\1c&H00FFFFFF&}are {\1c&H00FFFFFF&}there {\1c&H00FFFFFF&}in {\1c&H00FFFFFF&}UAE {\1c&H0038C8FF&}So
+Dialogue: 0,0:00:30.16,0:00:30.30,Cap,,0,0,0,,{\1c&H0038C8FF&}you {\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}take {\1c&H00FFFFFF&}all {\1c&H00FFFFFF&}the
+Dialogue: 0,0:00:30.30,0:00:30.42,Cap,,0,0,0,,{\1c&H00FFFFFF&}you {\1c&H0038C8FF&}can {\1c&H00FFFFFF&}take {\1c&H00FFFFFF&}all {\1c&H00FFFFFF&}the
+Dialogue: 0,0:00:30.42,0:00:30.56,Cap,,0,0,0,,{\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}can {\1c&H0038C8FF&}take {\1c&H00FFFFFF&}all {\1c&H00FFFFFF&}the
+Dialogue: 0,0:00:30.56,0:00:30.76,Cap,,0,0,0,,{\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}take {\1c&H0038C8FF&}all {\1c&H00FFFFFF&}the
+Dialogue: 0,0:00:30.76,0:00:30.88,Cap,,0,0,0,,{\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}take {\1c&H00FFFFFF&}all {\1c&H0038C8FF&}the
+Dialogue: 0,0:00:30.88,0:00:31.12,Cap,,0,0,0,,{\1c&H0038C8FF&}medical {\1c&H00FFFFFF&}facilities {\1c&H00FFFFFF&}on
+Dialogue: 0,0:00:31.12,0:00:31.58,Cap,,0,0,0,,{\1c&H00FFFFFF&}medical {\1c&H0038C8FF&}facilities {\1c&H00FFFFFF&}on
+Dialogue: 0,0:00:31.58,0:00:32.00,Cap,,0,0,0,,{\1c&H00FFFFFF&}medical {\1c&H00FFFFFF&}facilities {\1c&H0038C8FF&}on
+Dialogue: 0,0:00:32.00,0:00:32.12,Cap,,0,0,0,,{\1c&H0038C8FF&}the {\1c&H00FFFFFF&}insurance {\1c&H00FFFFFF&}So {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}can
+Dialogue: 0,0:00:32.12,0:00:32.44,Cap,,0,0,0,,{\1c&H00FFFFFF&}the {\1c&H0038C8FF&}insurance {\1c&H00FFFFFF&}So {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}can
+Dialogue: 0,0:00:32.44,0:00:33.16,Cap,,0,0,0,,{\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}insurance {\1c&H0038C8FF&}So {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}can
+Dialogue: 0,0:00:33.16,0:00:33.32,Cap,,0,0,0,,{\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}insurance {\1c&H00FFFFFF&}So {\1c&H0038C8FF&}you {\1c&H00FFFFFF&}can
+Dialogue: 0,0:00:33.32,0:00:33.50,Cap,,0,0,0,,{\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}insurance {\1c&H00FFFFFF&}So {\1c&H00FFFFFF&}you {\1c&H0038C8FF&}can
+Dialogue: 0,0:00:33.50,0:00:33.90,Cap,,0,0,0,,{\1c&H0038C8FF&}sponsor {\1c&H00FFFFFF&}your {\1c&H00FFFFFF&}kids {\1c&H00FFFFFF&}no {\1c&H00FFFFFF&}age
+Dialogue: 0,0:00:33.90,0:00:34.14,Cap,,0,0,0,,{\1c&H00FFFFFF&}sponsor {\1c&H0038C8FF&}your {\1c&H00FFFFFF&}kids {\1c&H00FFFFFF&}no {\1c&H00FFFFFF&}age
+Dialogue: 0,0:00:34.14,0:00:34.52,Cap,,0,0,0,,{\1c&H00FFFFFF&}sponsor {\1c&H00FFFFFF&}your {\1c&H0038C8FF&}kids {\1c&H00FFFFFF&}no {\1c&H00FFFFFF&}age
+Dialogue: 0,0:00:34.52,0:00:35.00,Cap,,0,0,0,,{\1c&H00FFFFFF&}sponsor {\1c&H00FFFFFF&}your {\1c&H00FFFFFF&}kids {\1c&H0038C8FF&}no {\1c&H00FFFFFF&}age
+Dialogue: 0,0:00:35.00,0:00:35.26,Cap,,0,0,0,,{\1c&H00FFFFFF&}sponsor {\1c&H00FFFFFF&}your {\1c&H00FFFFFF&}kids {\1c&H00FFFFFF&}no {\1c&H0038C8FF&}age
+Dialogue: 0,0:00:35.26,0:00:35.48,Cap,,0,0,0,,{\1c&H0038C8FF&}limit {\1c&H00FFFFFF&}of {\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}kids {\1c&H00FFFFFF&}any
+Dialogue: 0,0:00:35.48,0:00:35.66,Cap,,0,0,0,,{\1c&H00FFFFFF&}limit {\1c&H0038C8FF&}of {\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}kids {\1c&H00FFFFFF&}any
+Dialogue: 0,0:00:35.66,0:00:35.80,Cap,,0,0,0,,{\1c&H00FFFFFF&}limit {\1c&H00FFFFFF&}of {\1c&H0038C8FF&}the {\1c&H00FFFFFF&}kids {\1c&H00FFFFFF&}any
+Dialogue: 0,0:00:35.80,0:00:36.00,Cap,,0,0,0,,{\1c&H00FFFFFF&}limit {\1c&H00FFFFFF&}of {\1c&H00FFFFFF&}the {\1c&H0038C8FF&}kids {\1c&H00FFFFFF&}any
+Dialogue: 0,0:00:36.00,0:00:36.38,Cap,,0,0,0,,{\1c&H00FFFFFF&}limit {\1c&H00FFFFFF&}of {\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}kids {\1c&H0038C8FF&}any
+Dialogue: 0,0:00:36.38,0:00:36.62,Cap,,0,0,0,,{\1c&H0038C8FF&}case {\1c&H00FFFFFF&}any {\1c&H00FFFFFF&}kid {\1c&H00FFFFFF&}who {\1c&H00FFFFFF&}is
+Dialogue: 0,0:00:36.62,0:00:37.22,Cap,,0,0,0,,{\1c&H00FFFFFF&}case {\1c&H0038C8FF&}any {\1c&H00FFFFFF&}kid {\1c&H00FFFFFF&}who {\1c&H00FFFFFF&}is
+Dialogue: 0,0:00:37.22,0:00:37.54,Cap,,0,0,0,,{\1c&H00FFFFFF&}case {\1c&H00FFFFFF&}any {\1c&H0038C8FF&}kid {\1c&H00FFFFFF&}who {\1c&H00FFFFFF&}is
+Dialogue: 0,0:00:37.54,0:00:37.84,Cap,,0,0,0,,{\1c&H00FFFFFF&}case {\1c&H00FFFFFF&}any {\1c&H00FFFFFF&}kid {\1c&H0038C8FF&}who {\1c&H00FFFFFF&}is
+Dialogue: 0,0:00:37.84,0:00:38.00,Cap,,0,0,0,,{\1c&H00FFFFFF&}case {\1c&H00FFFFFF&}any {\1c&H00FFFFFF&}kid {\1c&H00FFFFFF&}who {\1c&H0038C8FF&}is
+Dialogue: 0,0:00:38.00,0:00:38.48,Cap,,0,0,0,,{\1c&H0038C8FF&}unmarried {\1c&H00FFFFFF&}You {\1c&H00FFFFFF&}can
+Dialogue: 0,0:00:38.48,0:00:38.94,Cap,,0,0,0,,{\1c&H00FFFFFF&}unmarried {\1c&H0038C8FF&}You {\1c&H00FFFFFF&}can
+Dialogue: 0,0:00:38.94,0:00:39.12,Cap,,0,0,0,,{\1c&H00FFFFFF&}unmarried {\1c&H00FFFFFF&}You {\1c&H0038C8FF&}can
+Dialogue: 0,0:00:39.12,0:00:39.48,Cap,,0,0,0,,{\1c&H0038C8FF&}sponsor {\1c&H00FFFFFF&}him {\1c&H00FFFFFF&}your {\1c&H00FFFFFF&}wife {\1c&H00FFFFFF&}as
+Dialogue: 0,0:00:39.48,0:00:39.70,Cap,,0,0,0,,{\1c&H00FFFFFF&}sponsor {\1c&H0038C8FF&}him {\1c&H00FFFFFF&}your {\1c&H00FFFFFF&}wife {\1c&H00FFFFFF&}as
+Dialogue: 0,0:00:39.70,0:00:39.94,Cap,,0,0,0,,{\1c&H00FFFFFF&}sponsor {\1c&H00FFFFFF&}him {\1c&H0038C8FF&}your {\1c&H00FFFFFF&}wife {\1c&H00FFFFFF&}as
+Dialogue: 0,0:00:39.94,0:00:40.34,Cap,,0,0,0,,{\1c&H00FFFFFF&}sponsor {\1c&H00FFFFFF&}him {\1c&H00FFFFFF&}your {\1c&H0038C8FF&}wife {\1c&H00FFFFFF&}as
+Dialogue: 0,0:00:40.34,0:00:41.08,Cap,,0,0,0,,{\1c&H00FFFFFF&}sponsor {\1c&H00FFFFFF&}him {\1c&H00FFFFFF&}your {\1c&H00FFFFFF&}wife {\1c&H0038C8FF&}as
+Dialogue: 0,0:00:41.08,0:00:41.28,Cap,,0,0,0,,{\1c&H0038C8FF&}well {\1c&H00FFFFFF&}as {\1c&H00FFFFFF&}your {\1c&H00FFFFFF&}maid {\1c&H00FFFFFF&}and
+Dialogue: 0,0:00:41.28,0:00:41.48,Cap,,0,0,0,,{\1c&H00FFFFFF&}well {\1c&H0038C8FF&}as {\1c&H00FFFFFF&}your {\1c&H00FFFFFF&}maid {\1c&H00FFFFFF&}and
+Dialogue: 0,0:00:41.48,0:00:42.14,Cap,,0,0,0,,{\1c&H00FFFFFF&}well {\1c&H00FFFFFF&}as {\1c&H0038C8FF&}your {\1c&H00FFFFFF&}maid {\1c&H00FFFFFF&}and
+Dialogue: 0,0:00:42.14,0:00:42.48,Cap,,0,0,0,,{\1c&H00FFFFFF&}well {\1c&H00FFFFFF&}as {\1c&H00FFFFFF&}your {\1c&H0038C8FF&}maid {\1c&H00FFFFFF&}and
+Dialogue: 0,0:00:42.48,0:00:42.92,Cap,,0,0,0,,{\1c&H00FFFFFF&}well {\1c&H00FFFFFF&}as {\1c&H00FFFFFF&}your {\1c&H00FFFFFF&}maid {\1c&H0038C8FF&}and
+Dialogue: 0,0:00:42.92,0:00:43.12,Cap,,0,0,0,,{\1c&H0038C8FF&}your {\1c&H00FFFFFF&}driver {\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}be
+Dialogue: 0,0:00:43.12,0:00:43.46,Cap,,0,0,0,,{\1c&H00FFFFFF&}your {\1c&H0038C8FF&}driver {\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}be
+Dialogue: 0,0:00:43.46,0:00:43.70,Cap,,0,0,0,,{\1c&H00FFFFFF&}your {\1c&H00FFFFFF&}driver {\1c&H0038C8FF&}can {\1c&H00FFFFFF&}be
+Dialogue: 0,0:00:43.70,0:00:43.84,Cap,,0,0,0,,{\1c&H00FFFFFF&}your {\1c&H00FFFFFF&}driver {\1c&H00FFFFFF&}can {\1c&H0038C8FF&}be
+Dialogue: 0,0:00:43.84,0:00:44.16,Cap,,0,0,0,,{\1c&H0038C8FF&}sponsored {\1c&H00FFFFFF&}on {\1c&H00FFFFFF&}this {\1c&H00FFFFFF&}PR
+Dialogue: 0,0:00:44.16,0:00:44.52,Cap,,0,0,0,,{\1c&H00FFFFFF&}sponsored {\1c&H0038C8FF&}on {\1c&H00FFFFFF&}this {\1c&H00FFFFFF&}PR
+Dialogue: 0,0:00:44.52,0:00:46.78,Cap,,0,0,0,,{\1c&H00FFFFFF&}sponsored {\1c&H00FFFFFF&}on {\1c&H0038C8FF&}this {\1c&H00FFFFFF&}PR
+Dialogue: 0,0:00:46.78,0:00:47.04,Cap,,0,0,0,,{\1c&H00FFFFFF&}sponsored {\1c&H00FFFFFF&}on {\1c&H00FFFFFF&}this {\1c&H0038C8FF&}PR
+Dialogue: 0,0:00:47.04,0:00:47.40,Cap,,0,0,0,,{\1c&H0038C8FF&}golden {\1c&H00FFFFFF&}visa {\1c&H00FFFFFF&}number {\1c&H00FFFFFF&}two
+Dialogue: 0,0:00:47.40,0:00:47.66,Cap,,0,0,0,,{\1c&H00FFFFFF&}golden {\1c&H0038C8FF&}visa {\1c&H00FFFFFF&}number {\1c&H00FFFFFF&}two
+Dialogue: 0,0:00:47.66,0:00:47.98,Cap,,0,0,0,,{\1c&H00FFFFFF&}golden {\1c&H00FFFFFF&}visa {\1c&H0038C8FF&}number {\1c&H00FFFFFF&}two
+Dialogue: 0,0:00:47.98,0:00:48.34,Cap,,0,0,0,,{\1c&H00FFFFFF&}golden {\1c&H00FFFFFF&}visa {\1c&H00FFFFFF&}number {\1c&H0038C8FF&}two
+Dialogue: 0,0:00:48.34,0:00:48.88,Cap,,0,0,0,,{\1c&H0038C8FF&}one {\1c&H00FFFFFF&}more {\1c&H00FFFFFF&}some {\1c&H00FFFFFF&}of {\1c&H00FFFFFF&}the
+Dialogue: 0,0:00:48.88,0:00:49.10,Cap,,0,0,0,,{\1c&H00FFFFFF&}one {\1c&H0038C8FF&}more {\1c&H00FFFFFF&}some {\1c&H00FFFFFF&}of {\1c&H00FFFFFF&}the
+Dialogue: 0,0:00:49.10,0:00:49.40,Cap,,0,0,0,,{\1c&H00FFFFFF&}one {\1c&H00FFFFFF&}more {\1c&H0038C8FF&}some {\1c&H00FFFFFF&}of {\1c&H00FFFFFF&}the
+Dialogue: 0,0:00:49.40,0:00:49.54,Cap,,0,0,0,,{\1c&H00FFFFFF&}one {\1c&H00FFFFFF&}more {\1c&H00FFFFFF&}some {\1c&H0038C8FF&}of {\1c&H00FFFFFF&}the
+Dialogue: 0,0:00:49.54,0:00:49.66,Cap,,0,0,0,,{\1c&H00FFFFFF&}one {\1c&H00FFFFFF&}more {\1c&H00FFFFFF&}some {\1c&H00FFFFFF&}of {\1c&H0038C8FF&}the
+Dialogue: 0,0:00:49.66,0:00:49.88,Cap,,0,0,0,,{\1c&H0038C8FF&}points {\1c&H00FFFFFF&}are {\1c&H00FFFFFF&}there {\1c&H00FFFFFF&}I {\1c&H00FFFFFF&}have
+Dialogue: 0,0:00:49.88,0:00:50.06,Cap,,0,0,0,,{\1c&H00FFFFFF&}points {\1c&H0038C8FF&}are {\1c&H00FFFFFF&}there {\1c&H00FFFFFF&}I {\1c&H00FFFFFF&}have
+Dialogue: 0,0:00:50.06,0:00:50.20,Cap,,0,0,0,,{\1c&H00FFFFFF&}points {\1c&H00FFFFFF&}are {\1c&H0038C8FF&}there {\1c&H00FFFFFF&}I {\1c&H00FFFFFF&}have
+Dialogue: 0,0:00:50.20,0:00:50.40,Cap,,0,0,0,,{\1c&H00FFFFFF&}points {\1c&H00FFFFFF&}are {\1c&H00FFFFFF&}there {\1c&H0038C8FF&}I {\1c&H00FFFFFF&}have
+Dialogue: 0,0:00:50.40,0:00:50.52,Cap,,0,0,0,,{\1c&H00FFFFFF&}points {\1c&H00FFFFFF&}are {\1c&H00FFFFFF&}there {\1c&H00FFFFFF&}I {\1c&H0038C8FF&}have
+Dialogue: 0,0:00:50.52,0:00:50.70,Cap,,0,0,0,,{\1c&H0038C8FF&}written {\1c&H00FFFFFF&}all {\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}point {\1c&H00FFFFFF&}on
+Dialogue: 0,0:00:50.70,0:00:50.88,Cap,,0,0,0,,{\1c&H00FFFFFF&}written {\1c&H0038C8FF&}all {\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}point {\1c&H00FFFFFF&}on
+Dialogue: 0,0:00:50.88,0:00:51.00,Cap,,0,0,0,,{\1c&H00FFFFFF&}written {\1c&H00FFFFFF&}all {\1c&H0038C8FF&}the {\1c&H00FFFFFF&}point {\1c&H00FFFFFF&}on
+Dialogue: 0,0:00:51.00,0:00:51.18,Cap,,0,0,0,,{\1c&H00FFFFFF&}written {\1c&H00FFFFFF&}all {\1c&H00FFFFFF&}the {\1c&H0038C8FF&}point {\1c&H00FFFFFF&}on
+Dialogue: 0,0:00:51.18,0:00:51.34,Cap,,0,0,0,,{\1c&H00FFFFFF&}written {\1c&H00FFFFFF&}all {\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}point {\1c&H0038C8FF&}on
+Dialogue: 0,0:00:51.34,0:00:51.48,Cap,,0,0,0,,{\1c&H0038C8FF&}my {\1c&H00FFFFFF&}paper {\1c&H00FFFFFF&}So {\1c&H00FFFFFF&}I {\1c&H00FFFFFF&}don't
+Dialogue: 0,0:00:51.48,0:00:51.66,Cap,,0,0,0,,{\1c&H00FFFFFF&}my {\1c&H0038C8FF&}paper {\1c&H00FFFFFF&}So {\1c&H00FFFFFF&}I {\1c&H00FFFFFF&}don't
+Dialogue: 0,0:00:51.66,0:00:51.86,Cap,,0,0,0,,{\1c&H00FFFFFF&}my {\1c&H00FFFFFF&}paper {\1c&H0038C8FF&}So {\1c&H00FFFFFF&}I {\1c&H00FFFFFF&}don't
+Dialogue: 0,0:00:51.86,0:00:51.92,Cap,,0,0,0,,{\1c&H00FFFFFF&}my {\1c&H00FFFFFF&}paper {\1c&H00FFFFFF&}So {\1c&H0038C8FF&}I {\1c&H00FFFFFF&}don't
+Dialogue: 0,0:00:51.92,0:00:52.08,Cap,,0,0,0,,{\1c&H00FFFFFF&}my {\1c&H00FFFFFF&}paper {\1c&H00FFFFFF&}So {\1c&H00FFFFFF&}I {\1c&H0038C8FF&}don't
+Dialogue: 0,0:00:52.08,0:00:52.26,Cap,,0,0,0,,{\1c&H0038C8FF&}want {\1c&H00FFFFFF&}to {\1c&H00FFFFFF&}miss {\1c&H00FFFFFF&}any {\1c&H00FFFFFF&}of
+Dialogue: 0,0:00:52.26,0:00:52.38,Cap,,0,0,0,,{\1c&H00FFFFFF&}want {\1c&H0038C8FF&}to {\1c&H00FFFFFF&}miss {\1c&H00FFFFFF&}any {\1c&H00FFFFFF&}of
+Dialogue: 0,0:00:52.38,0:00:52.52,Cap,,0,0,0,,{\1c&H00FFFFFF&}want {\1c&H00FFFFFF&}to {\1c&H0038C8FF&}miss {\1c&H00FFFFFF&}any {\1c&H00FFFFFF&}of
+Dialogue: 0,0:00:52.52,0:00:52.80,Cap,,0,0,0,,{\1c&H00FFFFFF&}want {\1c&H00FFFFFF&}to {\1c&H00FFFFFF&}miss {\1c&H0038C8FF&}any {\1c&H00FFFFFF&}of
+Dialogue: 0,0:00:52.80,0:00:52.94,Cap,,0,0,0,,{\1c&H00FFFFFF&}want {\1c&H00FFFFFF&}to {\1c&H00FFFFFF&}miss {\1c&H00FFFFFF&}any {\1c&H0038C8FF&}of
+Dialogue: 0,0:00:52.94,0:00:53.06,Cap,,0,0,0,,{\1c&H0038C8FF&}the {\1c&H00FFFFFF&}single {\1c&H00FFFFFF&}point {\1c&H00FFFFFF&}in {\1c&H00FFFFFF&}this
+Dialogue: 0,0:00:53.06,0:00:53.26,Cap,,0,0,0,,{\1c&H00FFFFFF&}the {\1c&H0038C8FF&}single {\1c&H00FFFFFF&}point {\1c&H00FFFFFF&}in {\1c&H00FFFFFF&}this
+Dialogue: 0,0:00:53.26,0:00:53.56,Cap,,0,0,0,,{\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}single {\1c&H0038C8FF&}point {\1c&H00FFFFFF&}in {\1c&H00FFFFFF&}this
+Dialogue: 0,0:00:53.56,0:00:54.04,Cap,,0,0,0,,{\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}single {\1c&H00FFFFFF&}point {\1c&H0038C8FF&}in {\1c&H00FFFFFF&}this
+Dialogue: 0,0:00:54.04,0:00:54.20,Cap,,0,0,0,,{\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}single {\1c&H00FFFFFF&}point {\1c&H00FFFFFF&}in {\1c&H0038C8FF&}this
+Dialogue: 0,0:00:54.20,0:00:54.89,Cap,,0,0,0,,{\1c&H0038C8FF&}video
+Dialogue: 0,0:00:54.94,0:00:54.98,Cap,,0,0,0,,{\1c&H0038C8FF&}So {\1c&H00FFFFFF&}PR {\1c&H00FFFFFF&}means {\1c&H00FFFFFF&}the
+Dialogue: 0,0:00:54.98,0:00:55.24,Cap,,0,0,0,,{\1c&H00FFFFFF&}So {\1c&H0038C8FF&}PR {\1c&H00FFFFFF&}means {\1c&H00FFFFFF&}the
+Dialogue: 0,0:00:55.24,0:00:55.56,Cap,,0,0,0,,{\1c&H00FFFFFF&}So {\1c&H00FFFFFF&}PR {\1c&H0038C8FF&}means {\1c&H00FFFFFF&}the
+Dialogue: 0,0:00:55.56,0:00:55.80,Cap,,0,0,0,,{\1c&H00FFFFFF&}So {\1c&H00FFFFFF&}PR {\1c&H00FFFFFF&}means {\1c&H0038C8FF&}the
+Dialogue: 0,0:00:55.80,0:00:55.98,Cap,,0,0,0,,{\1c&H0038C8FF&}permanent {\1c&H00FFFFFF&}residency {\1c&H00FFFFFF&}is
+Dialogue: 0,0:00:55.98,0:00:56.48,Cap,,0,0,0,,{\1c&H00FFFFFF&}permanent {\1c&H0038C8FF&}residency {\1c&H00FFFFFF&}is
+Dialogue: 0,0:00:56.48,0:00:56.70,Cap,,0,0,0,,{\1c&H00FFFFFF&}permanent {\1c&H00FFFFFF&}residency {\1c&H0038C8FF&}is
+Dialogue: 0,0:00:56.70,0:00:56.84,Cap,,0,0,0,,{\1c&H0038C8FF&}10 {\1c&H00FFFFFF&}years {\1c&H00FFFFFF&}You {\1c&H00FFFFFF&}don't {\1c&H00FFFFFF&}need
+Dialogue: 0,0:00:56.84,0:00:57.12,Cap,,0,0,0,,{\1c&H00FFFFFF&}10 {\1c&H0038C8FF&}years {\1c&H00FFFFFF&}You {\1c&H00FFFFFF&}don't {\1c&H00FFFFFF&}need
+Dialogue: 0,0:00:57.12,0:00:57.30,Cap,,0,0,0,,{\1c&H00FFFFFF&}10 {\1c&H00FFFFFF&}years {\1c&H0038C8FF&}You {\1c&H00FFFFFF&}don't {\1c&H00FFFFFF&}need
+Dialogue: 0,0:00:57.30,0:00:57.52,Cap,,0,0,0,,{\1c&H00FFFFFF&}10 {\1c&H00FFFFFF&}years {\1c&H00FFFFFF&}You {\1c&H0038C8FF&}don't {\1c&H00FFFFFF&}need
+Dialogue: 0,0:00:57.52,0:00:57.72,Cap,,0,0,0,,{\1c&H00FFFFFF&}10 {\1c&H00FFFFFF&}years {\1c&H00FFFFFF&}You {\1c&H00FFFFFF&}don't {\1c&H0038C8FF&}need
+Dialogue: 0,0:00:57.72,0:00:57.86,Cap,,0,0,0,,{\1c&H0038C8FF&}to {\1c&H00FFFFFF&}change {\1c&H00FFFFFF&}or {\1c&H00FFFFFF&}anything
+Dialogue: 0,0:00:57.86,0:00:58.10,Cap,,0,0,0,,{\1c&H00FFFFFF&}to {\1c&H0038C8FF&}change {\1c&H00FFFFFF&}or {\1c&H00FFFFFF&}anything
+Dialogue: 0,0:00:58.10,0:00:58.28,Cap,,0,0,0,,{\1c&H00FFFFFF&}to {\1c&H00FFFFFF&}change {\1c&H0038C8FF&}or {\1c&H00FFFFFF&}anything
+Dialogue: 0,0:00:58.28,0:00:58.90,Cap,,0,0,0,,{\1c&H00FFFFFF&}to {\1c&H00FFFFFF&}change {\1c&H00FFFFFF&}or {\1c&H0038C8FF&}anything
+Dialogue: 0,0:00:58.90,0:00:59.04,Cap,,0,0,0,,{\1c&H0038C8FF&}You'll {\1c&H00FFFFFF&}have {\1c&H00FFFFFF&}complete
+Dialogue: 0,0:00:59.04,0:00:59.20,Cap,,0,0,0,,{\1c&H00FFFFFF&}You'll {\1c&H0038C8FF&}have {\1c&H00FFFFFF&}complete
+Dialogue: 0,0:00:59.20,0:00:59.64,Cap,,0,0,0,,{\1c&H00FFFFFF&}You'll {\1c&H00FFFFFF&}have {\1c&H0038C8FF&}complete
+Dialogue: 0,0:00:59.64,0:01:00.02,Cap,,0,0,0,,{\1c&H0038C8FF&}residence {\1c&H00FFFFFF&}of {\1c&H00FFFFFF&}UAE {\1c&H00FFFFFF&}along
+Dialogue: 0,0:01:00.02,0:01:00.46,Cap,,0,0,0,,{\1c&H00FFFFFF&}residence {\1c&H0038C8FF&}of {\1c&H00FFFFFF&}UAE {\1c&H00FFFFFF&}along
+Dialogue: 0,0:01:00.46,0:01:01.10,Cap,,0,0,0,,{\1c&H00FFFFFF&}residence {\1c&H00FFFFFF&}of {\1c&H0038C8FF&}UAE {\1c&H00FFFFFF&}along
+Dialogue: 0,0:01:01.10,0:01:01.44,Cap,,0,0,0,,{\1c&H00FFFFFF&}residence {\1c&H00FFFFFF&}of {\1c&H00FFFFFF&}UAE {\1c&H0038C8FF&}along
+Dialogue: 0,0:01:01.44,0:01:01.70,Cap,,0,0,0,,{\1c&H0038C8FF&}with {\1c&H00FFFFFF&}this {\1c&H00FFFFFF&}All {\1c&H00FFFFFF&}the
+Dialogue: 0,0:01:01.70,0:01:01.96,Cap,,0,0,0,,{\1c&H00FFFFFF&}with {\1c&H0038C8FF&}this {\1c&H00FFFFFF&}All {\1c&H00FFFFFF&}the
+Dialogue: 0,0:01:01.96,0:01:02.80,Cap,,0,0,0,,{\1c&H00FFFFFF&}with {\1c&H00FFFFFF&}this {\1c&H0038C8FF&}All {\1c&H00FFFFFF&}the
+Dialogue: 0,0:01:02.80,0:01:02.96,Cap,,0,0,0,,{\1c&H00FFFFFF&}with {\1c&H00FFFFFF&}this {\1c&H00FFFFFF&}All {\1c&H0038C8FF&}the
+Dialogue: 0,0:01:02.96,0:01:03.30,Cap,,0,0,0,,{\1c&H0038C8FF&}benefits {\1c&H00FFFFFF&}of {\1c&H00FFFFFF&}the
+Dialogue: 0,0:01:03.30,0:01:03.68,Cap,,0,0,0,,{\1c&H00FFFFFF&}benefits {\1c&H0038C8FF&}of {\1c&H00FFFFFF&}the
+Dialogue: 0,0:01:03.68,0:01:03.88,Cap,,0,0,0,,{\1c&H00FFFFFF&}benefits {\1c&H00FFFFFF&}of {\1c&H0038C8FF&}the
+Dialogue: 0,0:01:03.88,0:01:04.24,Cap,,0,0,0,,{\1c&H0038C8FF&}residence {\1c&H00FFFFFF&}any {\1c&H00FFFFFF&}residence
+Dialogue: 0,0:01:04.24,0:01:04.68,Cap,,0,0,0,,{\1c&H00FFFFFF&}residence {\1c&H0038C8FF&}any {\1c&H00FFFFFF&}residence
+Dialogue: 0,0:01:04.68,0:01:05.06,Cap,,0,0,0,,{\1c&H00FFFFFF&}residence {\1c&H00FFFFFF&}any {\1c&H0038C8FF&}residence
+Dialogue: 0,0:01:05.06,0:01:05.38,Cap,,0,0,0,,{\1c&H0038C8FF&}we {\1c&H00FFFFFF&}having {\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}benefit
+Dialogue: 0,0:01:05.38,0:01:05.70,Cap,,0,0,0,,{\1c&H00FFFFFF&}we {\1c&H0038C8FF&}having {\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}benefit
+Dialogue: 0,0:01:05.70,0:01:05.90,Cap,,0,0,0,,{\1c&H00FFFFFF&}we {\1c&H00FFFFFF&}having {\1c&H0038C8FF&}the {\1c&H00FFFFFF&}benefit
+Dialogue: 0,0:01:05.90,0:01:06.26,Cap,,0,0,0,,{\1c&H00FFFFFF&}we {\1c&H00FFFFFF&}having {\1c&H00FFFFFF&}the {\1c&H0038C8FF&}benefit
+Dialogue: 0,0:01:06.26,0:01:06.60,Cap,,0,0,0,,{\1c&H0038C8FF&}You {\1c&H00FFFFFF&}are {\1c&H00FFFFFF&}having {\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}same
+Dialogue: 0,0:01:06.60,0:01:06.76,Cap,,0,0,0,,{\1c&H00FFFFFF&}You {\1c&H0038C8FF&}are {\1c&H00FFFFFF&}having {\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}same
+Dialogue: 0,0:01:06.76,0:01:06.92,Cap,,0,0,0,,{\1c&H00FFFFFF&}You {\1c&H00FFFFFF&}are {\1c&H0038C8FF&}having {\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}same
+Dialogue: 0,0:01:06.92,0:01:07.10,Cap,,0,0,0,,{\1c&H00FFFFFF&}You {\1c&H00FFFFFF&}are {\1c&H00FFFFFF&}having {\1c&H0038C8FF&}the {\1c&H00FFFFFF&}same
+Dialogue: 0,0:01:07.10,0:01:07.38,Cap,,0,0,0,,{\1c&H00FFFFFF&}You {\1c&H00FFFFFF&}are {\1c&H00FFFFFF&}having {\1c&H00FFFFFF&}the {\1c&H0038C8FF&}same
+Dialogue: 0,0:01:07.38,0:01:07.80,Cap,,0,0,0,,{\1c&H0038C8FF&}benefits {\1c&H00FFFFFF&}for {\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}period
+Dialogue: 0,0:01:07.80,0:01:08.06,Cap,,0,0,0,,{\1c&H00FFFFFF&}benefits {\1c&H0038C8FF&}for {\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}period
+Dialogue: 0,0:01:08.06,0:01:08.16,Cap,,0,0,0,,{\1c&H00FFFFFF&}benefits {\1c&H00FFFFFF&}for {\1c&H0038C8FF&}the {\1c&H00FFFFFF&}period
+Dialogue: 0,0:01:08.16,0:01:08.34,Cap,,0,0,0,,{\1c&H00FFFFFF&}benefits {\1c&H00FFFFFF&}for {\1c&H00FFFFFF&}the {\1c&H0038C8FF&}period
+Dialogue: 0,0:01:08.34,0:01:08.50,Cap,,0,0,0,,{\1c&H0038C8FF&}of {\1c&H00FFFFFF&}10 {\1c&H00FFFFFF&}years
+Dialogue: 0,0:01:08.50,0:01:08.74,Cap,,0,0,0,,{\1c&H00FFFFFF&}of {\1c&H0038C8FF&}10 {\1c&H00FFFFFF&}years
+Dialogue: 0,0:01:08.74,0:01:09.24,Cap,,0,0,0,,{\1c&H00FFFFFF&}of {\1c&H00FFFFFF&}10 {\1c&H0038C8FF&}years
+Dialogue: 0,0:01:09.24,0:01:09.34,Cap,,0,0,0,,{\1c&H0038C8FF&}You'll {\1c&H00FFFFFF&}be {\1c&H00FFFFFF&}and {\1c&H00FFFFFF&}it's
+Dialogue: 0,0:01:09.34,0:01:09.42,Cap,,0,0,0,,{\1c&H00FFFFFF&}You'll {\1c&H0038C8FF&}be {\1c&H00FFFFFF&}and {\1c&H00FFFFFF&}it's
+Dialogue: 0,0:01:09.42,0:01:09.80,Cap,,0,0,0,,{\1c&H00FFFFFF&}You'll {\1c&H00FFFFFF&}be {\1c&H0038C8FF&}and {\1c&H00FFFFFF&}it's
+Dialogue: 0,0:01:09.80,0:01:09.98,Cap,,0,0,0,,{\1c&H00FFFFFF&}You'll {\1c&H00FFFFFF&}be {\1c&H00FFFFFF&}and {\1c&H0038C8FF&}it's
+Dialogue: 0,0:01:09.98,0:01:10.32,Cap,,0,0,0,,{\1c&H0038C8FF&}renewable {\1c&H00FFFFFF&}You {\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}renew
+Dialogue: 0,0:01:10.32,0:01:10.82,Cap,,0,0,0,,{\1c&H00FFFFFF&}renewable {\1c&H0038C8FF&}You {\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}renew
+Dialogue: 0,0:01:10.82,0:01:10.98,Cap,,0,0,0,,{\1c&H00FFFFFF&}renewable {\1c&H00FFFFFF&}You {\1c&H0038C8FF&}can {\1c&H00FFFFFF&}renew
+Dialogue: 0,0:01:10.98,0:01:11.30,Cap,,0,0,0,,{\1c&H00FFFFFF&}renewable {\1c&H00FFFFFF&}You {\1c&H00FFFFFF&}can {\1c&H0038C8FF&}renew
+Dialogue: 0,0:01:11.30,0:01:11.50,Cap,,0,0,0,,{\1c&H0038C8FF&}your {\1c&H00FFFFFF&}residency
+Dialogue: 0,0:01:11.50,0:01:12.16,Cap,,0,0,0,,{\1c&H00FFFFFF&}your {\1c&H0038C8FF&}residency
+Dialogue: 0,0:01:12.16,0:01:12.60,Cap,,0,0,0,,{\1c&H0038C8FF&}It {\1c&H00FFFFFF&}will {\1c&H00FFFFFF&}be {\1c&H00FFFFFF&}renewed
+Dialogue: 0,0:01:12.60,0:01:12.74,Cap,,0,0,0,,{\1c&H00FFFFFF&}It {\1c&H0038C8FF&}will {\1c&H00FFFFFF&}be {\1c&H00FFFFFF&}renewed
+Dialogue: 0,0:01:12.74,0:01:12.86,Cap,,0,0,0,,{\1c&H00FFFFFF&}It {\1c&H00FFFFFF&}will {\1c&H0038C8FF&}be {\1c&H00FFFFFF&}renewed
+Dialogue: 0,0:01:12.86,0:01:13.10,Cap,,0,0,0,,{\1c&H00FFFFFF&}It {\1c&H00FFFFFF&}will {\1c&H00FFFFFF&}be {\1c&H0038C8FF&}renewed
+Dialogue: 0,0:01:13.10,0:01:13.66,Cap,,0,0,0,,{\1c&H0038C8FF&}automatically {\1c&H00FFFFFF&}small {\1c&H00FFFFFF&}fees
+Dialogue: 0,0:01:13.66,0:01:14.40,Cap,,0,0,0,,{\1c&H00FFFFFF&}automatically {\1c&H0038C8FF&}small {\1c&H00FFFFFF&}fees
+Dialogue: 0,0:01:14.40,0:01:14.84,Cap,,0,0,0,,{\1c&H00FFFFFF&}automatically {\1c&H00FFFFFF&}small {\1c&H0038C8FF&}fees
+Dialogue: 0,0:01:14.84,0:01:15.28,Cap,,0,0,0,,{\1c&H0038C8FF&}required {\1c&H00FFFFFF&}So {\1c&H00FFFFFF&}your {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}are
+Dialogue: 0,0:01:15.28,0:01:15.58,Cap,,0,0,0,,{\1c&H00FFFFFF&}required {\1c&H0038C8FF&}So {\1c&H00FFFFFF&}your {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}are
+Dialogue: 0,0:01:15.58,0:01:15.88,Cap,,0,0,0,,{\1c&H00FFFFFF&}required {\1c&H00FFFFFF&}So {\1c&H0038C8FF&}your {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}are
+Dialogue: 0,0:01:15.88,0:01:16.24,Cap,,0,0,0,,{\1c&H00FFFFFF&}required {\1c&H00FFFFFF&}So {\1c&H00FFFFFF&}your {\1c&H0038C8FF&}you {\1c&H00FFFFFF&}are
+Dialogue: 0,0:01:16.24,0:01:16.38,Cap,,0,0,0,,{\1c&H00FFFFFF&}required {\1c&H00FFFFFF&}So {\1c&H00FFFFFF&}your {\1c&H00FFFFFF&}you {\1c&H0038C8FF&}are
+Dialogue: 0,0:01:16.38,0:01:16.50,Cap,,0,0,0,,{\1c&H0038C8FF&}going {\1c&H00FFFFFF&}to {\1c&H00FFFFFF&}pay {\1c&H00FFFFFF&}that {\1c&H00FFFFFF&}small
+Dialogue: 0,0:01:16.50,0:01:16.62,Cap,,0,0,0,,{\1c&H00FFFFFF&}going {\1c&H0038C8FF&}to {\1c&H00FFFFFF&}pay {\1c&H00FFFFFF&}that {\1c&H00FFFFFF&}small
+Dialogue: 0,0:01:16.62,0:01:16.76,Cap,,0,0,0,,{\1c&H00FFFFFF&}going {\1c&H00FFFFFF&}to {\1c&H0038C8FF&}pay {\1c&H00FFFFFF&}that {\1c&H00FFFFFF&}small
+Dialogue: 0,0:01:16.76,0:01:16.94,Cap,,0,0,0,,{\1c&H00FFFFFF&}going {\1c&H00FFFFFF&}to {\1c&H00FFFFFF&}pay {\1c&H0038C8FF&}that {\1c&H00FFFFFF&}small
+Dialogue: 0,0:01:16.94,0:01:17.18,Cap,,0,0,0,,{\1c&H00FFFFFF&}going {\1c&H00FFFFFF&}to {\1c&H00FFFFFF&}pay {\1c&H00FFFFFF&}that {\1c&H0038C8FF&}small
+Dialogue: 0,0:01:17.18,0:01:17.40,Cap,,0,0,0,,{\1c&H0038C8FF&}fee {\1c&H00FFFFFF&}and {\1c&H00FFFFFF&}it {\1c&H00FFFFFF&}will {\1c&H00FFFFFF&}be
+Dialogue: 0,0:01:17.40,0:01:17.62,Cap,,0,0,0,,{\1c&H00FFFFFF&}fee {\1c&H0038C8FF&}and {\1c&H00FFFFFF&}it {\1c&H00FFFFFF&}will {\1c&H00FFFFFF&}be
+Dialogue: 0,0:01:17.62,0:01:17.80,Cap,,0,0,0,,{\1c&H00FFFFFF&}fee {\1c&H00FFFFFF&}and {\1c&H0038C8FF&}it {\1c&H00FFFFFF&}will {\1c&H00FFFFFF&}be
+Dialogue: 0,0:01:17.80,0:01:17.92,Cap,,0,0,0,,{\1c&H00FFFFFF&}fee {\1c&H00FFFFFF&}and {\1c&H00FFFFFF&}it {\1c&H0038C8FF&}will {\1c&H00FFFFFF&}be
+Dialogue: 0,0:01:17.92,0:01:18.04,Cap,,0,0,0,,{\1c&H00FFFFFF&}fee {\1c&H00FFFFFF&}and {\1c&H00FFFFFF&}it {\1c&H00FFFFFF&}will {\1c&H0038C8FF&}be
+Dialogue: 0,0:01:18.04,0:01:18.24,Cap,,0,0,0,,{\1c&H0038C8FF&}renewed {\1c&H00FFFFFF&}for {\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}next {\1c&H00FFFFFF&}10
+Dialogue: 0,0:01:18.24,0:01:18.42,Cap,,0,0,0,,{\1c&H00FFFFFF&}renewed {\1c&H0038C8FF&}for {\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}next {\1c&H00FFFFFF&}10
+Dialogue: 0,0:01:18.42,0:01:18.54,Cap,,0,0,0,,{\1c&H00FFFFFF&}renewed {\1c&H00FFFFFF&}for {\1c&H0038C8FF&}the {\1c&H00FFFFFF&}next {\1c&H00FFFFFF&}10
+Dialogue: 0,0:01:18.54,0:01:18.70,Cap,,0,0,0,,{\1c&H00FFFFFF&}renewed {\1c&H00FFFFFF&}for {\1c&H00FFFFFF&}the {\1c&H0038C8FF&}next {\1c&H00FFFFFF&}10
+Dialogue: 0,0:01:18.70,0:01:18.98,Cap,,0,0,0,,{\1c&H00FFFFFF&}renewed {\1c&H00FFFFFF&}for {\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}next {\1c&H0038C8FF&}10
+Dialogue: 0,0:01:18.98,0:01:19.24,Cap,,0,0,0,,{\1c&H0038C8FF&}years {\1c&H00FFFFFF&}For {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}your
+Dialogue: 0,0:01:19.24,0:01:19.68,Cap,,0,0,0,,{\1c&H00FFFFFF&}years {\1c&H0038C8FF&}For {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}your
+Dialogue: 0,0:01:19.68,0:01:19.94,Cap,,0,0,0,,{\1c&H00FFFFFF&}years {\1c&H00FFFFFF&}For {\1c&H0038C8FF&}you {\1c&H00FFFFFF&}your
+Dialogue: 0,0:01:19.94,0:01:20.18,Cap,,0,0,0,,{\1c&H00FFFFFF&}years {\1c&H00FFFFFF&}For {\1c&H00FFFFFF&}you {\1c&H0038C8FF&}your
+Dialogue: 0,0:01:20.18,0:01:20.52,Cap,,0,0,0,,{\1c&H0038C8FF&}family {\1c&H00FFFFFF&}your {\1c&H00FFFFFF&}spouse
+Dialogue: 0,0:01:20.52,0:01:20.82,Cap,,0,0,0,,{\1c&H00FFFFFF&}family {\1c&H0038C8FF&}your {\1c&H00FFFFFF&}spouse
+Dialogue: 0,0:01:20.82,0:01:21.08,Cap,,0,0,0,,{\1c&H00FFFFFF&}family {\1c&H00FFFFFF&}your {\1c&H0038C8FF&}spouse
+Dialogue: 0,0:01:21.08,0:01:21.50,Cap,,0,0,0,,{\1c&H0038C8FF&}your {\1c&H00FFFFFF&}sponsored {\1c&H00FFFFFF&}servants
+Dialogue: 0,0:01:21.50,0:01:21.82,Cap,,0,0,0,,{\1c&H00FFFFFF&}your {\1c&H0038C8FF&}sponsored {\1c&H00FFFFFF&}servants
+Dialogue: 0,0:01:21.82,0:01:22.52,Cap,,0,0,0,,{\1c&H00FFFFFF&}your {\1c&H00FFFFFF&}sponsored {\1c&H0038C8FF&}servants
+Dialogue: 0,0:01:22.52,0:01:23.22,Cap,,0,0,0,,{\1c&H0038C8FF&}maids
+Dialogue: 0,0:01:23.22,0:01:23.96,Cap,,0,0,0,,{\1c&H0038C8FF&}drivers
+Dialogue: 0,0:01:23.96,0:01:24.26,Cap,,0,0,0,,{\1c&H0038C8FF&}everyone {\1c&H00FFFFFF&}will {\1c&H00FFFFFF&}be
+Dialogue: 0,0:01:24.26,0:01:24.52,Cap,,0,0,0,,{\1c&H00FFFFFF&}everyone {\1c&H0038C8FF&}will {\1c&H00FFFFFF&}be
+Dialogue: 0,0:01:24.52,0:01:24.99,Cap,,0,0,0,,{\1c&H00FFFFFF&}everyone {\1c&H00FFFFFF&}will {\1c&H0038C8FF&}be
+Dialogue: 0,0:01:25.56,0:01:26.16,Cap,,0,0,0,,{\1c&H0038C8FF&}You're {\1c&H00FFFFFF&}along {\1c&H00FFFFFF&}with {\1c&H00FFFFFF&}this
+Dialogue: 0,0:01:26.16,0:01:26.66,Cap,,0,0,0,,{\1c&H00FFFFFF&}You're {\1c&H0038C8FF&}along {\1c&H00FFFFFF&}with {\1c&H00FFFFFF&}this
+Dialogue: 0,0:01:26.66,0:01:26.84,Cap,,0,0,0,,{\1c&H00FFFFFF&}You're {\1c&H00FFFFFF&}along {\1c&H0038C8FF&}with {\1c&H00FFFFFF&}this
+Dialogue: 0,0:01:26.84,0:01:27.14,Cap,,0,0,0,,{\1c&H00FFFFFF&}You're {\1c&H00FFFFFF&}along {\1c&H00FFFFFF&}with {\1c&H0038C8FF&}this
+Dialogue: 0,0:01:27.14,0:01:27.60,Cap,,0,0,0,,{\1c&H0038C8FF&}you {\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}take {\1c&H00FFFFFF&}the
+Dialogue: 0,0:01:27.60,0:01:27.88,Cap,,0,0,0,,{\1c&H00FFFFFF&}you {\1c&H0038C8FF&}can {\1c&H00FFFFFF&}take {\1c&H00FFFFFF&}the
+Dialogue: 0,0:01:27.88,0:01:28.10,Cap,,0,0,0,,{\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}can {\1c&H0038C8FF&}take {\1c&H00FFFFFF&}the
+Dialogue: 0,0:01:28.10,0:01:28.65,Cap,,0,0,0,,{\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}take {\1c&H0038C8FF&}the
+Dialogue: 0,0:01:28.92,0:01:29.34,Cap,,0,0,0,,{\1c&H0038C8FF&}Advantage {\1c&H00FFFFFF&}of {\1c&H00FFFFFF&}kids
+Dialogue: 0,0:01:29.34,0:01:29.60,Cap,,0,0,0,,{\1c&H00FFFFFF&}Advantage {\1c&H0038C8FF&}of {\1c&H00FFFFFF&}kids
+Dialogue: 0,0:01:29.60,0:01:29.82,Cap,,0,0,0,,{\1c&H00FFFFFF&}Advantage {\1c&H00FFFFFF&}of {\1c&H0038C8FF&}kids
+Dialogue: 0,0:01:29.82,0:01:30.42,Cap,,0,0,0,,{\1c&H0038C8FF&}education {\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}UAE
+Dialogue: 0,0:01:30.42,0:01:30.66,Cap,,0,0,0,,{\1c&H00FFFFFF&}education {\1c&H0038C8FF&}the {\1c&H00FFFFFF&}UAE
+Dialogue: 0,0:01:30.66,0:01:31.08,Cap,,0,0,0,,{\1c&H00FFFFFF&}education {\1c&H00FFFFFF&}the {\1c&H0038C8FF&}UAE
+Dialogue: 0,0:01:31.08,0:01:31.42,Cap,,0,0,0,,{\1c&H0038C8FF&}education {\1c&H00FFFFFF&}is {\1c&H00FFFFFF&}very {\1c&H00FFFFFF&}esteemed
+Dialogue: 0,0:01:31.42,0:01:31.70,Cap,,0,0,0,,{\1c&H00FFFFFF&}education {\1c&H0038C8FF&}is {\1c&H00FFFFFF&}very {\1c&H00FFFFFF&}esteemed
+Dialogue: 0,0:01:31.70,0:01:32.64,Cap,,0,0,0,,{\1c&H00FFFFFF&}education {\1c&H00FFFFFF&}is {\1c&H0038C8FF&}very {\1c&H00FFFFFF&}esteemed
+Dialogue: 0,0:01:32.64,0:01:32.98,Cap,,0,0,0,,{\1c&H00FFFFFF&}education {\1c&H00FFFFFF&}is {\1c&H00FFFFFF&}very {\1c&H0038C8FF&}esteemed
+Dialogue: 0,0:01:32.98,0:01:33.24,Cap,,0,0,0,,{\1c&H0038C8FF&}lot {\1c&H00FFFFFF&}of {\1c&H00FFFFFF&}countries {\1c&H00FFFFFF&}like
+Dialogue: 0,0:01:33.24,0:01:33.44,Cap,,0,0,0,,{\1c&H00FFFFFF&}lot {\1c&H0038C8FF&}of {\1c&H00FFFFFF&}countries {\1c&H00FFFFFF&}like
+Dialogue: 0,0:01:33.44,0:01:33.80,Cap,,0,0,0,,{\1c&H00FFFFFF&}lot {\1c&H00FFFFFF&}of {\1c&H0038C8FF&}countries {\1c&H00FFFFFF&}like
+Dialogue: 0,0:01:33.80,0:01:34.20,Cap,,0,0,0,,{\1c&H00FFFFFF&}lot {\1c&H00FFFFFF&}of {\1c&H00FFFFFF&}countries {\1c&H0038C8FF&}like
+Dialogue: 0,0:01:34.20,0:01:34.52,Cap,,0,0,0,,{\1c&H0038C8FF&}Canada {\1c&H00FFFFFF&}America {\1c&H00FFFFFF&}UK {\1c&H00FFFFFF&}All
+Dialogue: 0,0:01:34.52,0:01:34.96,Cap,,0,0,0,,{\1c&H00FFFFFF&}Canada {\1c&H0038C8FF&}America {\1c&H00FFFFFF&}UK {\1c&H00FFFFFF&}All
+Dialogue: 0,0:01:34.96,0:01:35.64,Cap,,0,0,0,,{\1c&H00FFFFFF&}Canada {\1c&H00FFFFFF&}America {\1c&H0038C8FF&}UK {\1c&H00FFFFFF&}All
+Dialogue: 0,0:01:35.64,0:01:36.08,Cap,,0,0,0,,{\1c&H00FFFFFF&}Canada {\1c&H00FFFFFF&}America {\1c&H00FFFFFF&}UK {\1c&H0038C8FF&}All
+Dialogue: 0,0:01:36.08,0:01:36.24,Cap,,0,0,0,,{\1c&H0038C8FF&}have {\1c&H00FFFFFF&}their {\1c&H00FFFFFF&}campuses {\1c&H00FFFFFF&}over
+Dialogue: 0,0:01:36.24,0:01:36.36,Cap,,0,0,0,,{\1c&H00FFFFFF&}have {\1c&H0038C8FF&}their {\1c&H00FFFFFF&}campuses {\1c&H00FFFFFF&}over
+Dialogue: 0,0:01:36.36,0:01:36.80,Cap,,0,0,0,,{\1c&H00FFFFFF&}have {\1c&H00FFFFFF&}their {\1c&H0038C8FF&}campuses {\1c&H00FFFFFF&}over
+Dialogue: 0,0:01:36.80,0:01:37.16,Cap,,0,0,0,,{\1c&H00FFFFFF&}have {\1c&H00FFFFFF&}their {\1c&H00FFFFFF&}campuses {\1c&H0038C8FF&}over
+Dialogue: 0,0:01:37.16,0:01:37.44,Cap,,0,0,0,,{\1c&H0038C8FF&}here
+Dialogue: 0,0:01:37.44,0:01:37.84,Cap,,0,0,0,,{\1c&H0038C8FF&}You {\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}give {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}can
+Dialogue: 0,0:01:37.84,0:01:38.14,Cap,,0,0,0,,{\1c&H00FFFFFF&}You {\1c&H0038C8FF&}can {\1c&H00FFFFFF&}give {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}can
+Dialogue: 0,0:01:38.14,0:01:38.88,Cap,,0,0,0,,{\1c&H00FFFFFF&}You {\1c&H00FFFFFF&}can {\1c&H0038C8FF&}give {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}can
+Dialogue: 0,0:01:38.88,0:01:39.26,Cap,,0,0,0,,{\1c&H00FFFFFF&}You {\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}give {\1c&H0038C8FF&}you {\1c&H00FFFFFF&}can
+Dialogue: 0,0:01:39.26,0:01:39.46,Cap,,0,0,0,,{\1c&H00FFFFFF&}You {\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}give {\1c&H00FFFFFF&}you {\1c&H0038C8FF&}can
+Dialogue: 0,0:01:39.46,0:01:39.62,Cap,,0,0,0,,{\1c&H0038C8FF&}take {\1c&H00FFFFFF&}your {\1c&H00FFFFFF&}students
+Dialogue: 0,0:01:39.62,0:01:39.80,Cap,,0,0,0,,{\1c&H00FFFFFF&}take {\1c&H0038C8FF&}your {\1c&H00FFFFFF&}students
+Dialogue: 0,0:01:39.80,0:01:40.16,Cap,,0,0,0,,{\1c&H00FFFFFF&}take {\1c&H00FFFFFF&}your {\1c&H0038C8FF&}students
+Dialogue: 0,0:01:40.16,0:01:40.78,Cap,,0,0,0,,{\1c&H0038C8FF&}You {\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}take {\1c&H00FFFFFF&}your {\1c&H00FFFFFF&}kids
+Dialogue: 0,0:01:40.78,0:01:40.96,Cap,,0,0,0,,{\1c&H00FFFFFF&}You {\1c&H0038C8FF&}can {\1c&H00FFFFFF&}take {\1c&H00FFFFFF&}your {\1c&H00FFFFFF&}kids
+Dialogue: 0,0:01:40.96,0:01:41.22,Cap,,0,0,0,,{\1c&H00FFFFFF&}You {\1c&H00FFFFFF&}can {\1c&H0038C8FF&}take {\1c&H00FFFFFF&}your {\1c&H00FFFFFF&}kids
+Dialogue: 0,0:01:41.22,0:01:41.38,Cap,,0,0,0,,{\1c&H00FFFFFF&}You {\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}take {\1c&H0038C8FF&}your {\1c&H00FFFFFF&}kids
+Dialogue: 0,0:01:41.38,0:01:41.66,Cap,,0,0,0,,{\1c&H00FFFFFF&}You {\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}take {\1c&H00FFFFFF&}your {\1c&H0038C8FF&}kids
+Dialogue: 0,0:01:41.66,0:01:42.04,Cap,,0,0,0,,{\1c&H0038C8FF&}over {\1c&H00FFFFFF&}there {\1c&H00FFFFFF&}and {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}can
+Dialogue: 0,0:01:42.04,0:01:42.30,Cap,,0,0,0,,{\1c&H00FFFFFF&}over {\1c&H0038C8FF&}there {\1c&H00FFFFFF&}and {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}can
+Dialogue: 0,0:01:42.30,0:01:42.66,Cap,,0,0,0,,{\1c&H00FFFFFF&}over {\1c&H00FFFFFF&}there {\1c&H0038C8FF&}and {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}can
+Dialogue: 0,0:01:42.66,0:01:42.80,Cap,,0,0,0,,{\1c&H00FFFFFF&}over {\1c&H00FFFFFF&}there {\1c&H00FFFFFF&}and {\1c&H0038C8FF&}you {\1c&H00FFFFFF&}can
+Dialogue: 0,0:01:42.80,0:01:42.96,Cap,,0,0,0,,{\1c&H00FFFFFF&}over {\1c&H00FFFFFF&}there {\1c&H00FFFFFF&}and {\1c&H00FFFFFF&}you {\1c&H0038C8FF&}can
+Dialogue: 0,0:01:42.96,0:01:43.10,Cap,,0,0,0,,{\1c&H0038C8FF&}take {\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}benefits {\1c&H00FFFFFF&}of {\1c&H00FFFFFF&}all
+Dialogue: 0,0:01:43.10,0:01:43.22,Cap,,0,0,0,,{\1c&H00FFFFFF&}take {\1c&H0038C8FF&}the {\1c&H00FFFFFF&}benefits {\1c&H00FFFFFF&}of {\1c&H00FFFFFF&}all
+Dialogue: 0,0:01:43.22,0:01:43.52,Cap,,0,0,0,,{\1c&H00FFFFFF&}take {\1c&H00FFFFFF&}the {\1c&H0038C8FF&}benefits {\1c&H00FFFFFF&}of {\1c&H00FFFFFF&}all
+Dialogue: 0,0:01:43.52,0:01:43.82,Cap,,0,0,0,,{\1c&H00FFFFFF&}take {\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}benefits {\1c&H0038C8FF&}of {\1c&H00FFFFFF&}all
+Dialogue: 0,0:01:43.82,0:01:44.04,Cap,,0,0,0,,{\1c&H00FFFFFF&}take {\1c&H00FFFFFF&}the {\1c&H00FFFFFF&}benefits {\1c&H00FFFFFF&}of {\1c&H0038C8FF&}all
+Dialogue: 0,0:01:44.04,0:01:44.38,Cap,,0,0,0,,{\1c&H0038C8FF&}international {\1c&H00FFFFFF&}studies
+Dialogue: 0,0:01:44.38,0:01:44.76,Cap,,0,0,0,,{\1c&H00FFFFFF&}international {\1c&H0038C8FF&}studies
+Dialogue: 0,0:01:44.76,0:01:45.28,Cap,,0,0,0,,{\1c&H0038C8FF&}given {\1c&H00FFFFFF&}over {\1c&H00FFFFFF&}here {\1c&H00FFFFFF&}in {\1c&H00FFFFFF&}UAE
+Dialogue: 0,0:01:45.28,0:01:45.56,Cap,,0,0,0,,{\1c&H00FFFFFF&}given {\1c&H0038C8FF&}over {\1c&H00FFFFFF&}here {\1c&H00FFFFFF&}in {\1c&H00FFFFFF&}UAE
+Dialogue: 0,0:01:45.56,0:01:45.78,Cap,,0,0,0,,{\1c&H00FFFFFF&}given {\1c&H00FFFFFF&}over {\1c&H0038C8FF&}here {\1c&H00FFFFFF&}in {\1c&H00FFFFFF&}UAE
+Dialogue: 0,0:01:45.78,0:01:45.96,Cap,,0,0,0,,{\1c&H00FFFFFF&}given {\1c&H00FFFFFF&}over {\1c&H00FFFFFF&}here {\1c&H0038C8FF&}in {\1c&H00FFFFFF&}UAE
+Dialogue: 0,0:01:45.96,0:01:46.64,Cap,,0,0,0,,{\1c&H00FFFFFF&}given {\1c&H00FFFFFF&}over {\1c&H00FFFFFF&}here {\1c&H00FFFFFF&}in {\1c&H0038C8FF&}UAE
+Dialogue: 0,0:01:46.64,0:01:46.84,Cap,,0,0,0,,{\1c&H0038C8FF&}along {\1c&H00FFFFFF&}with {\1c&H00FFFFFF&}this
+Dialogue: 0,0:01:46.84,0:01:47.04,Cap,,0,0,0,,{\1c&H00FFFFFF&}along {\1c&H0038C8FF&}with {\1c&H00FFFFFF&}this
+Dialogue: 0,0:01:47.04,0:01:47.65,Cap,,0,0,0,,{\1c&H00FFFFFF&}along {\1c&H00FFFFFF&}with {\1c&H0038C8FF&}this
+Dialogue: 0,0:01:48.10,0:01:48.66,Cap,,0,0,0,,{\1c&H0038C8FF&}You {\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}do {\1c&H00FFFFFF&}a {\1c&H00FFFFFF&}business
+Dialogue: 0,0:01:48.66,0:01:48.82,Cap,,0,0,0,,{\1c&H00FFFFFF&}You {\1c&H0038C8FF&}can {\1c&H00FFFFFF&}do {\1c&H00FFFFFF&}a {\1c&H00FFFFFF&}business
+Dialogue: 0,0:01:48.82,0:01:48.98,Cap,,0,0,0,,{\1c&H00FFFFFF&}You {\1c&H00FFFFFF&}can {\1c&H0038C8FF&}do {\1c&H00FFFFFF&}a {\1c&H00FFFFFF&}business
+Dialogue: 0,0:01:48.98,0:01:49.12,Cap,,0,0,0,,{\1c&H00FFFFFF&}You {\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}do {\1c&H0038C8FF&}a {\1c&H00FFFFFF&}business
+Dialogue: 0,0:01:49.12,0:01:49.44,Cap,,0,0,0,,{\1c&H00FFFFFF&}You {\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}do {\1c&H00FFFFFF&}a {\1c&H0038C8FF&}business
+Dialogue: 0,0:01:49.44,0:01:49.80,Cap,,0,0,0,,{\1c&H0038C8FF&}any {\1c&H00FFFFFF&}type {\1c&H00FFFFFF&}of {\1c&H00FFFFFF&}business {\1c&H00FFFFFF&}you
+Dialogue: 0,0:01:49.80,0:01:50.04,Cap,,0,0,0,,{\1c&H00FFFFFF&}any {\1c&H0038C8FF&}type {\1c&H00FFFFFF&}of {\1c&H00FFFFFF&}business {\1c&H00FFFFFF&}you
+Dialogue: 0,0:01:50.04,0:01:50.18,Cap,,0,0,0,,{\1c&H00FFFFFF&}any {\1c&H00FFFFFF&}type {\1c&H0038C8FF&}of {\1c&H00FFFFFF&}business {\1c&H00FFFFFF&}you
+Dialogue: 0,0:01:50.18,0:01:50.40,Cap,,0,0,0,,{\1c&H00FFFFFF&}any {\1c&H00FFFFFF&}type {\1c&H00FFFFFF&}of {\1c&H0038C8FF&}business {\1c&H00FFFFFF&}you
+Dialogue: 0,0:01:50.40,0:01:50.64,Cap,,0,0,0,,{\1c&H00FFFFFF&}any {\1c&H00FFFFFF&}type {\1c&H00FFFFFF&}of {\1c&H00FFFFFF&}business {\1c&H0038C8FF&}you
+Dialogue: 0,0:01:50.64,0:01:50.82,Cap,,0,0,0,,{\1c&H0038C8FF&}want {\1c&H00FFFFFF&}to {\1c&H00FFFFFF&}do {\1c&H00FFFFFF&}in {\1c&H00FFFFFF&}do
+Dialogue: 0,0:01:50.82,0:01:50.98,Cap,,0,0,0,,{\1c&H00FFFFFF&}want {\1c&H0038C8FF&}to {\1c&H00FFFFFF&}do {\1c&H00FFFFFF&}in {\1c&H00FFFFFF&}do
+Dialogue: 0,0:01:50.98,0:01:51.26,Cap,,0,0,0,,{\1c&H00FFFFFF&}want {\1c&H00FFFFFF&}to {\1c&H0038C8FF&}do {\1c&H00FFFFFF&}in {\1c&H00FFFFFF&}do
+Dialogue: 0,0:01:51.26,0:01:51.50,Cap,,0,0,0,,{\1c&H00FFFFFF&}want {\1c&H00FFFFFF&}to {\1c&H00FFFFFF&}do {\1c&H0038C8FF&}in {\1c&H00FFFFFF&}do
+Dialogue: 0,0:01:51.50,0:01:51.78,Cap,,0,0,0,,{\1c&H00FFFFFF&}want {\1c&H00FFFFFF&}to {\1c&H00FFFFFF&}do {\1c&H00FFFFFF&}in {\1c&H0038C8FF&}do
+Dialogue: 0,0:01:51.78,0:01:52.12,Cap,,0,0,0,,{\1c&H0038C8FF&}in {\1c&H00FFFFFF&}UAE {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}You
+Dialogue: 0,0:01:52.12,0:01:52.72,Cap,,0,0,0,,{\1c&H00FFFFFF&}in {\1c&H0038C8FF&}UAE {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}You
+Dialogue: 0,0:01:52.72,0:01:53.00,Cap,,0,0,0,,{\1c&H00FFFFFF&}in {\1c&H00FFFFFF&}UAE {\1c&H0038C8FF&}you {\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}You
+Dialogue: 0,0:01:53.00,0:01:53.28,Cap,,0,0,0,,{\1c&H00FFFFFF&}in {\1c&H00FFFFFF&}UAE {\1c&H00FFFFFF&}you {\1c&H0038C8FF&}can {\1c&H00FFFFFF&}You
+Dialogue: 0,0:01:53.28,0:01:54.20,Cap,,0,0,0,,{\1c&H00FFFFFF&}in {\1c&H00FFFFFF&}UAE {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}can {\1c&H0038C8FF&}You
+Dialogue: 0,0:01:54.20,0:01:54.52,Cap,,0,0,0,,{\1c&H0038C8FF&}can {\1c&H00FFFFFF&}do {\1c&H00FFFFFF&}on {\1c&H00FFFFFF&}that {\1c&H00FFFFFF&}golden
+Dialogue: 0,0:01:54.52,0:01:55.18,Cap,,0,0,0,,{\1c&H00FFFFFF&}can {\1c&H0038C8FF&}do {\1c&H00FFFFFF&}on {\1c&H00FFFFFF&}that {\1c&H00FFFFFF&}golden
+Dialogue: 0,0:01:55.18,0:01:55.70,Cap,,0,0,0,,{\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}do {\1c&H0038C8FF&}on {\1c&H00FFFFFF&}that {\1c&H00FFFFFF&}golden
+Dialogue: 0,0:01:55.70,0:01:55.96,Cap,,0,0,0,,{\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}do {\1c&H00FFFFFF&}on {\1c&H0038C8FF&}that {\1c&H00FFFFFF&}golden
+Dialogue: 0,0:01:55.96,0:01:56.30,Cap,,0,0,0,,{\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}do {\1c&H00FFFFFF&}on {\1c&H00FFFFFF&}that {\1c&H0038C8FF&}golden
+Dialogue: 0,0:01:56.30,0:01:56.60,Cap,,0,0,0,,{\1c&H0038C8FF&}visa {\1c&H00FFFFFF&}along {\1c&H00FFFFFF&}with {\1c&H00FFFFFF&}this {\1c&H00FFFFFF&}you
+Dialogue: 0,0:01:56.60,0:01:57.02,Cap,,0,0,0,,{\1c&H00FFFFFF&}visa {\1c&H0038C8FF&}along {\1c&H00FFFFFF&}with {\1c&H00FFFFFF&}this {\1c&H00FFFFFF&}you
+Dialogue: 0,0:01:57.02,0:01:57.28,Cap,,0,0,0,,{\1c&H00FFFFFF&}visa {\1c&H00FFFFFF&}along {\1c&H0038C8FF&}with {\1c&H00FFFFFF&}this {\1c&H00FFFFFF&}you
+Dialogue: 0,0:01:57.28,0:01:57.52,Cap,,0,0,0,,{\1c&H00FFFFFF&}visa {\1c&H00FFFFFF&}along {\1c&H00FFFFFF&}with {\1c&H0038C8FF&}this {\1c&H00FFFFFF&}you
+Dialogue: 0,0:01:57.52,0:01:57.98,Cap,,0,0,0,,{\1c&H00FFFFFF&}visa {\1c&H00FFFFFF&}along {\1c&H00FFFFFF&}with {\1c&H00FFFFFF&}this {\1c&H0038C8FF&}you
+Dialogue: 0,0:01:57.98,0:01:58.26,Cap,,0,0,0,,{\1c&H0038C8FF&}can {\1c&H00FFFFFF&}if {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}want {\1c&H00FFFFFF&}to
+Dialogue: 0,0:01:58.26,0:01:58.62,Cap,,0,0,0,,{\1c&H00FFFFFF&}can {\1c&H0038C8FF&}if {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}want {\1c&H00FFFFFF&}to
+Dialogue: 0,0:01:58.62,0:01:58.70,Cap,,0,0,0,,{\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}if {\1c&H0038C8FF&}you {\1c&H00FFFFFF&}want {\1c&H00FFFFFF&}to
+Dialogue: 0,0:01:58.70,0:01:58.88,Cap,,0,0,0,,{\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}if {\1c&H00FFFFFF&}you {\1c&H0038C8FF&}want {\1c&H00FFFFFF&}to
+Dialogue: 0,0:01:58.88,0:01:59.00,Cap,,0,0,0,,{\1c&H00FFFFFF&}can {\1c&H00FFFFFF&}if {\1c&H00FFFFFF&}you {\1c&H00FFFFFF&}want {\1c&H0038C8FF&}to
+Dialogue: 0,0:01:59.00,0:01:59.26,Cap,,0,0,0,,{\1c&H0038C8FF&}apply {\1c&H00FFFFFF&}for {\1c&H00FFFFFF&}any
+Dialogue: 0,0:01:59.26,0:01:59.58,Cap,,0,0,0,,{\1c&H00FFFFFF&}apply {\1c&H0038C8FF&}for {\1c&H00FFFFFF&}any
+Dialogue: 0,0:01:59.58,0:02:00.25,Cap,,0,0,0,,{\1c&H00FFFFFF&}apply {\1c&H00FFFFFF&}for {\1c&H0038C8FF&}any

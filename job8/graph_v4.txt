@@ -1,0 +1,12 @@
+[0:v]transpose=2,scale=1920:1080:force_original_aspect_ratio=increase:flags=lanczos,crop=1920:1080,unsharp=5:5:0.5:5:5:0.0,setsar=1[base0];
+[1:v]format=rgba,split=4[s0][s1][s2][s3];
+[s0]crop=1080:680:0:0,scale=605:381:flags=lanczos,fade=t=in:st=18.46:d=0.3:alpha=1[c0];
+[base0][c0]overlay=x=1275:y='190+5*sin(2*PI*t/4.5)+26*pow(1-min(1,max(0,(t-18.46)/0.3)),2)':enable='between(t,18.46,30.94)'[base1];
+[s1]crop=1080:680:0:680,scale=605:381:flags=lanczos,fade=t=in:st=30.64:d=0.3:alpha=1[c1];
+[base1][c1]overlay=x=1275:y='190+5*sin(2*PI*t/4.5)+26*pow(1-min(1,max(0,(t-30.64)/0.3)),2)':enable='between(t,30.64,40.94)'[base2];
+[s2]crop=1080:680:0:1360,scale=605:381:flags=lanczos,fade=t=in:st=40.64:d=0.3:alpha=1[c2];
+[base2][c2]overlay=x=1275:y='190+5*sin(2*PI*t/4.5)+26*pow(1-min(1,max(0,(t-40.64)/0.3)),2)':enable='between(t,40.64,57.42)'[base3];
+[s3]crop=1080:680:0:2040,scale=605:381:flags=lanczos,fade=t=in:st=57.12:d=0.3:alpha=1[c3];
+[base3][c3]overlay=x=1275:y='190+5*sin(2*PI*t/4.5)+26*pow(1-min(1,max(0,(t-57.12)/0.3)),2)':enable='between(t,57.12,67.18)'[base4];
+[base4]subtitles=caps/v4.ass:fontsdir=fonts,format=yuv420p[vout];
+[0:a]highpass=f=80,afftdn=nf=-28,loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000[aout]
