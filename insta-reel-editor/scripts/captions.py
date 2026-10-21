@@ -9,7 +9,7 @@
       count maps word for word ('_' drops a word, '~' joins two in one slot);
       otherwise words are matched up and gaps spread evenly.
 
-  captions.py ass <chunks.tsv> <whisper.json> <out.ass> [--offset S] [--landscape]
+  captions.py ass <chunks.tsv> <whisper.json> <out.ass> [--offset S] [--landscape] [--size N]
       Build an ASS file with the active word highlighted. Word timing comes from
       the whisper words inside each chunk when the word count still matches the
       edited text, otherwise it is spread across the chunk by word length.
@@ -116,7 +116,7 @@ def ts(t):
     return f"{cs // 360000}:{cs // 6000 % 60:02d}:{cs // 100 % 60:02d}.{cs % 100:02d}"
 
 
-def ass(chunks_tsv, whisper_json, out_ass, offset=0.0, landscape=False, fontsize=None, marginv=None):
+def ass(chunks_tsv, whisper_json, out_ass, offset=0.0, landscape=False, size=None):
     words = load_words(whisper_json)
     chunks = []
     for line in Path(chunks_tsv).read_text(encoding="utf-8").splitlines():
@@ -149,17 +149,12 @@ def ass(chunks_tsv, whisper_json, out_ass, offset=0.0, landscape=False, fontsize
                 continue
             events.append(f"Dialogue: 0,{ts(a)},{ts(b)},Cap,,0,0,0,,{' '.join(parts)}")
     header = HEADER
-    if fontsize:
-        outline = max(3, round(fontsize * 6 / 66))
-        mv = marginv if marginv is not None else (70 if landscape else round(772 + (fontsize - 66) * 0.75))
-        header = header.replace(
-            ",66,&H00FFFFFF,&H00FFFFFF,&H00101010,&H96000000,0,0,0,0,100,100,0,0,1,6,2,2,60,60,772,1",
-            f",{fontsize},&H00FFFFFF,&H00FFFFFF,&H00101010,&H96000000,0,0,0,0,100,100,0,0,1,{outline},2,2,60,60,{mv},1"
-        )
-    elif landscape:   # 1920x1080 frame, captions near the bottom edge
+    if landscape:   # 1920x1080 frame, captions near the bottom edge
         header = header.replace("PlayResX: 1080\nPlayResY: 1920", "PlayResX: 1920\nPlayResY: 1080").replace(",772,1", ",70,1")
-    if landscape and fontsize:
-        header = header.replace("PlayResX: 1080\nPlayResY: 1920", "PlayResX: 1920\nPlayResY: 1080")
+    if size:        # default 66; bigger captions need shorter chunks so they fit the width
+        header = header.replace("Montserrat ExtraBold,66,", f"Montserrat ExtraBold,{size},")
+        # thicker outline and shadow as the text grows, so it stays readable on bright backgrounds
+        header = header.replace(",0,0,1,6,2,2,", f",0,0,1,{max(6, round(size * 0.095))},{max(2, round(size * 0.04))},2,")
     Path(out_ass).write_text(header + "\n".join(events) + "\n", encoding="utf-8")
     print(f"{len(chunks)} captions, {len(events)} events -> {out_ass}")
 
@@ -171,19 +166,14 @@ if __name__ == "__main__":
         i = args.index("--offset")
         off = float(args[i + 1])
         del args[i:i + 2]
+    size = None
+    if "--size" in args:
+        i = args.index("--size")
+        size = int(args[i + 1])
+        del args[i:i + 2]
     land = "--landscape" in args
     if land:
         args.remove("--landscape")
-    fs = None
-    if "--fontsize" in args:
-        i = args.index("--fontsize")
-        fs = int(args[i + 1])
-        del args[i:i + 2]
-    mv_arg = None
-    if "--marginv" in args:
-        i = args.index("--marginv")
-        mv_arg = int(args[i + 1])
-        del args[i:i + 2]
     if not args:
         sys.exit(__doc__)
     if args[0] == "dump":
@@ -191,6 +181,6 @@ if __name__ == "__main__":
     elif args[0] == "align":
         align(args[1], args[2], args[3])
     elif args[0] == "ass":
-        ass(args[1], args[2], args[3], off, land, fs, mv_arg)
+        ass(args[1], args[2], args[3], off, land, size)
     else:
         sys.exit(__doc__)

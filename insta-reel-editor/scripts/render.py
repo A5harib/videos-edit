@@ -53,10 +53,9 @@ def build(job, vid, preview=None):
     cards_png, n_cards = render_cards(vid)
     words = f"tr_fix/{vid}.json" if Path(f"tr_fix/{vid}.json").exists() else f"tr/{vid}.json"
     land = spec.get("landscape", False)
-    fontsize = v.get("fontsize", spec.get("fontsize", None))
-    fs_args = ["--fontsize", str(fontsize)] if fontsize else []
     subprocess.run([sys.executable, str(SCRIPTS / "captions.py"), "ass", f"caps/{vid}.tsv", words,
-                    f"caps/{vid}.ass", "--offset", str(t0)] + (["--landscape"] if land else []) + fs_args, check=True)
+                    f"caps/{vid}.ass", "--offset", str(t0)] + (["--landscape"] if land else [])
+                   + (["--size", str(v["cap_size"])] if "cap_size" in v else []), check=True)
 
     tl = [(max(0.0, s - t0), idx) for s, idx in v["timeline"]]
     assert all(idx < n_cards for _, idx in tl), f"timeline uses a card index >= {n_cards}"

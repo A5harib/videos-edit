@@ -51,6 +51,8 @@ Crop stray artefacts off supplied images with ffmpeg before using them (a waterm
 
 Use the `small` model. It is already downloaded, auto-detects the language and takes seconds per clip. The large model is too slow on this machine to be worth it.
 
+Urdu speech is often detected as Hindi and comes back in garbled Devanagari. Run it again with `--lang ur` into a separate folder (`<job>/tr_ur`). Keep the Hindi pass: when the Urdu pass loops on one phrase or skips a stretch, the Hindi pass often has those words and their times.
+
 Tell the user what each video is about once you have the transcripts.
 
 ### 3. Captions
@@ -81,6 +83,17 @@ For **Roman Urdu**, transliterate word for word so your text has exactly as many
 
 First run `dump` on the raw transcript to see it in short lines, then write your text with the same number of tokens on each line. `align` prints a warning if the counts differ.
 
+For long Urdu videos with a messy transcript, matching token counts is not practical. Write one line of Roman Urdu per line of the raw dump instead, with any number of words, and use `line_align.py`. Each of your lines takes the time span of its raw line.
+
+```
+python scripts/captions.py dump  <job>/tr_ur/v1.json <job>/caps/v1_raw.tsv
+python scripts/line_align.py     <job>/caps/v1_raw.tsv <job>/caps/v1.txt <job>/tr_fix/v1.json
+python scripts/captions.py dump  <job>/tr_fix/v1.json <job>/caps/v1.tsv
+python scripts/merge_tiny.py     <job>/caps/v1.tsv
+```
+
+In the text, a line of `-` skips a raw line (a looped or wrong stretch), and `+START END text` inserts a line with its own times (for example taken from the Hindi pass). Leave a stretch uncaptioned rather than guess, and tell the user where it is. `merge_tiny.py` folds one-word flashes shorter than 0.35 s into the caption before them.
+
 Keep a list of words you were unsure of. You cannot hear the audio, so the user has to check those.
 
 ### 4. Cards
@@ -109,6 +122,7 @@ In `job.json`, fill in each video:
 - `trim` cuts dead air at the start and end, in seconds of the source.
 - `timeline` is `[second, card number]`. Take the seconds from the caption `.tsv`: a card should appear as the speaker starts the point it shows. Each card stays until the next one.
 - Leave the intro empty: the first entry is the first real point.
+- **Caption size.** The user asked for bigger, easier captions (Oct 2026), so always set `cap_size`: 84 for vertical reels, 88 for landscape. The outline and shadow thicken with the size automatically. For vertical at 84, keep each caption to about 14 characters: dump with `MAX_CHARS = 14` and `MAX_WORDS = 3` (import `captions`, set the two constants, call `dump`). Landscape fits the default chunking.
 
 ### 6. Render and check
 

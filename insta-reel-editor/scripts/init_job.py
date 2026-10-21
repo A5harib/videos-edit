@@ -27,7 +27,7 @@ def probe(path, entries):
 
 
 def main():
-    job, src = Path(sys.argv[1]), Path(sys.argv[2])
+    job, src = Path(sys.argv[1]), Path(sys.argv[2]).resolve()   # absolute, since render.py runs from the job folder
     for d in ("audio", "frames", "cards", "caps", "tr", "fonts"):
         (job / d).mkdir(parents=True, exist_ok=True)
     shutil.copy(SKILL / "assets" / "cards.css", job / "cards" / "cards.css")

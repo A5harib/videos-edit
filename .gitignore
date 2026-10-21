@@ -1,7 +1,7 @@
-# Over GitHub's 100 MB limit. Committed as .partNN pieces instead, see LARGE_FILES.md.
-instagram/5 - DAMAC Sorrento and DAMAC Islands 2 townhouses.mp4
-instagram/7 - Binghatti Wraith, Skyterraces and Skyflame.mp4
-job4/parts/p3.mp4
-instagram/10 - Dubai Golden Visa and Investor Visa (YouTube).mp4
-# Intermediate renders, joined without re-encoding into video 10. Over 100 MB each and not needed.
-job8/parts/
+# Only the editing harness is tracked. Raw clips, job folders and rendered
+# videos stay on disk and out of git.
+/*
+!/.gitignore
+!/README.md
+!/insta-reel-editor/
+__pycache__/
