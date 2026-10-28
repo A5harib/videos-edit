@@ -34,7 +34,7 @@ Mistakes here cost the user a full re-render, so settle this before rendering an
 
 Work in a job folder inside the scratchpad. Originals are never modified; outputs go to an `instagram` folder beside them.
 
-Only `transcribe.py` needs the transcription environment. Its Python is at `%USERPROFILE%\.cache\insta-reel-editor\venv\Scripts\python.exe`. If that is missing, create it with `python -m venv` and `pip install faster-whisper` (slow, run it in the background). The other scripts run on any Python.
+All scripts run on any Python with `requests`. Transcription goes through Groq, not the local model.
 
 ### 1. Set up and look
 
@@ -55,12 +55,12 @@ Crop stray artefacts off supplied images with ffmpeg before using them (a waterm
 ### 2. Transcribe
 
 ```
-<venv python> scripts/transcribe.py small <job>/tr <job>/audio/v1.wav <job>/audio/v2.wav ...
+python scripts/groq_transcribe.py <job>/tr <job>/audio/v1.wav <job>/audio/v2.wav ...
 ```
 
-Use the `small` model. It is already downloaded, auto-detects the language and takes seconds per clip. The large model is too slow on this machine to be worth it.
+The user wants Groq's hosted Whisper (`whisper-large-v3`), not `transcribe.py`. Run it from `Desktop/html/videos-edit`: it reads `GROQ_API_KEY` from `.env.local` there. It takes a few seconds per clip and writes the same JSON as `transcribe.py`, so every later step is unchanged. Never print the key.
 
-Urdu speech is often detected as Hindi and comes back in garbled Devanagari. Run it again with `--lang ur` into a separate folder (`<job>/tr_ur`). Keep the Hindi pass: when the Urdu pass loops on one phrase or skips a stretch, the Hindi pass often has those words and their times.
+Urdu speech is detected as Hindi and comes back in Devanagari. Run it again with `--lang ur` into `<job>/tr_ur`. Pick whichever pass reads better per video: the Urdu pass is cleaner for mostly Urdu speech, but on clips with a lot of English it translates the English into Urdu and drops the opening, so use the first pass there.
 
 Tell the user what each video is about once you have the transcripts.
 
