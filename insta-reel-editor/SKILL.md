@@ -21,6 +21,15 @@ These came from direct corrections, so treat them as the brief unless the user s
 - **Captions on every video**, a few words at a time, with the spoken word highlighted. Urdu or Hindi speech gets **Roman Urdu** captions, not Urdu script.
 - **Speed over polish.** The user wants results quickly. Make one video as an example, show it, then do the rest in the same style. Do not add extras nobody asked for.
 
+## Intake: which files, which order
+
+Mistakes here cost the user a full re-render, so settle this before rendering anything.
+
+- New videos usually land in `~/Downloads` or in `Desktop/html/videos-edit`. "Added a new video" means the newest files there that have no edited version in `instagram/` yet. Ignore anything the user says to skip and anything another tool already edited.
+- Shape decides the kind. A vertical clip (taller than wide, after any rotation fix) is a short: edit it on its own as a reel. Horizontal clips are long videos: several of them from the same batch get merged into one landscape video.
+- Order long clips by download time (file modified time), oldest first, unless the user gives an order. Print the planned order with each clip's name and duration, for example `1. wrath.mp4 1:58, 2. skyterraces.mp4 1:00`, and start rendering only after that line has been shown. If the user named an order, match it by duration and say so.
+- Before writing outputs, check `instagram/` for files with the same name or a `(1)`, `copy` or `-2` twin of one you are about to write. Replace the old one instead of adding a duplicate, and delete leftover twins from earlier runs.
+
 ## Workflow
 
 Work in a job folder inside the scratchpad. Originals are never modified; outputs go to an `instagram` folder beside them.
@@ -150,7 +159,11 @@ The first frame of the sheet is at 3 seconds and must show no card.
 
 ### 7. Report
 
-Give the user the list of output files and the words you were unsure of in each video. Mention if the source is low resolution, since upscaled WhatsApp video stays soft.
+Give the user each output file as a clickable full path (`file:///C:/...` with spaces as `%20`), one per line, so it can be copied. Add the words you were unsure of in each video, and mention if the source is low resolution, since upscaled WhatsApp video stays soft.
+
+Then write a short ready-to-send message for the person who sent the videos: which file is which, in plain words, no jargon. The user forwards it as is.
+
+If a render is still running, say how far along it is and roughly how long is left. A full render takes about three minutes per 85 seconds of video.
 
 Tell them how to get the files onto the phone and posted, because this is where it failed before:
 
