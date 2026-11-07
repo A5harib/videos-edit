@@ -32,7 +32,7 @@ Mistakes here cost the user a full re-render, so settle this before rendering an
 
 ## Workflow
 
-Work in a job folder inside the scratchpad. Originals are never modified; outputs go to an `instagram` folder beside them.
+Work in a job folder inside the scratchpad. Originals are never modified; outputs go to `<job>/instagram`.
 
 All scripts run on any Python with `requests`. Transcription goes through Groq, not the local model.
 
@@ -131,6 +131,7 @@ In `job.json`, fill in each video:
 - `trim` cuts dead air at the start and end, in seconds of the source.
 - `timeline` is `[second, card number]`. Take the seconds from the caption `.tsv`: a card should appear as the speaker starts the point it shows. Each card stays until the next one.
 - Leave the intro empty: the first entry is the first real point.
+- **Photo cutaways.** When the client sends photos to show "every 10 seconds", use `<div class="card photo"><img src="imgN.jpg"><span class="tag">Short label</span></div>` (the label says in two to four words what the photo shows). A photo lands when the speaker mentions what it shows and stays 3 to 4 s, then `[second, null]` clears the screen with a fade. The voice keeps playing; never freeze the video. Use only photos that fit the speech, repeat one if the speech comes back to it, and leave stretches with nothing to show as plain video. Add `style="object-position:50% 70%"` to the img to choose the crop of a tall photo.
 - **Caption size.** The user asked for bigger, easier captions (Oct 2026), so always set `cap_size`: 84 for vertical reels, 88 for landscape. The outline and shadow thicken with the size automatically. For vertical at 84, keep each caption to about 14 characters: dump with `MAX_CHARS = 14` and `MAX_WORDS = 3` (import `captions`, set the two constants, call `dump`). Landscape fits the default chunking.
 
 ### 6. Render and check

@@ -125,7 +125,7 @@ def ass(chunks_tsv, whisper_json, out_ass, offset=0.0, landscape=False, size=Non
         s, e, text = line.split("\t", 2)
         chunks.append({"s": float(s), "e": float(e), "words": [w.rstrip(",.;:") for w in text.split()]})
 
-    events = []
+    events, prev_end = [], 0.0
     for n, c in enumerate(chunks):
         src = [w for w in words if c["s"] - 0.01 <= w["s"] and w["e"] <= c["e"] + 0.01]
         if len(src) == len(c["words"]):
@@ -136,9 +136,16 @@ def ass(chunks_tsv, whisper_json, out_ass, offset=0.0, landscape=False, size=Non
             for wt in weights:
                 starts.append(c["s"] + (c["e"] - c["s"]) * acc / total)
                 acc += wt
+        # Groq word times often overlap the next chunk. Clamp so only one caption is on screen at a time.
+        first = max(starts[0], prev_end)
         nxt = chunks[n + 1]["s"] if n + 1 < len(chunks) else c["e"] + HOLD
-        end = min(nxt, c["e"] + HOLD)
-        bounds = starts + [end]
+        end = max(min(nxt, c["e"] + HOLD), first + 0.25)
+        bounds, last = [], first
+        for x in starts:
+            last = min(max(x, last), end)
+            bounds.append(last)
+        bounds.append(end)
+        prev_end = end
         for i in range(len(c["words"])):
             parts = []
             for j, w in enumerate(c["words"]):

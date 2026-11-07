@@ -26,13 +26,16 @@ def spread(text, s, e):
 
 raw = [l.split("\t") for l in Path(sys.argv[1]).read_text(encoding="utf-8").splitlines() if l.strip()]
 lines = [l.strip() for l in Path(sys.argv[2]).read_text(encoding="utf-8").splitlines() if l.strip()]
-words, i = [], 0
+words, i, prev_end = [], 0, 0.0
 for l in lines:
     if l.startswith("+"):
         s, e, text = l[1:].split(None, 2)
         words += spread(text, float(s), float(e))
         continue
     s, e = float(raw[i][0]), float(raw[i][1])
+    # Whisper lines can overlap; start each line where the last one ended so words stay in order
+    s = min(max(s, prev_end), e - 0.1)
+    prev_end = e
     i += 1
     if l != "-":
         words += spread(l, s, e)

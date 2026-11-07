@@ -36,7 +36,7 @@ def main():
 
     videos = sorted(p for p in src.iterdir() if p.suffix.lower() in VIDEO_EXT)
     images = sorted(p for p in src.iterdir() if p.suffix.lower() in IMAGE_EXT)
-    spec = {"src_dir": str(src), "out_dir": str(src / "instagram"), "hflip": False, "videos": {}}
+    spec = {"src_dir": str(src), "out_dir": str((job / "instagram").resolve()), "hflip": False, "videos": {}}
 
     for i, v in enumerate(videos, 1):
         vid = f"v{i}"

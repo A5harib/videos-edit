@@ -57,9 +57,11 @@ def build(job, vid, preview=None):
                     f"caps/{vid}.ass", "--offset", str(t0)] + (["--landscape"] if land else [])
                    + (["--size", str(v["cap_size"])] if "cap_size" in v else []), check=True)
 
+    # a null card number clears the screen from that second (used for photos that pop in and out)
     tl = [(max(0.0, s - t0), idx) for s, idx in v["timeline"]]
-    assert all(idx < n_cards for _, idx in tl), f"timeline uses a card index >= {n_cards}"
+    assert all(idx is None or idx < n_cards for _, idx in tl), f"timeline uses a card index >= {n_cards}"
     n = len(tl)
+    n_shown = sum(idx is not None for _, idx in tl)
     W, H = (1920, 1080) if land else (1080, 1920)
     scale, cx, cy = (LAND_SCALE, LAND_X, LAND_Y) if land else (SCALE, CELL_X, CELL_Y)
     w, h = round(CELL_W * scale), round(CELL_H * scale)
@@ -70,12 +72,17 @@ def build(job, vid, preview=None):
     g = [f"[0:v]{flip}scale={W}:{H}:force_original_aspect_ratio=increase:flags=lanczos,crop={W}:{H},"
          f"unsharp=5:5:0.5:5:5:0.0,setsar=1[base0]"]
     last = "base0"
-    if n:
-        g.append(f"[1:v]format=rgba,split={n}" + "".join(f"[s{i}]" for i in range(n)))
+    if n_shown:
+        g.append(f"[1:v]format=rgba,split={n_shown}" + "".join(f"[s{i}]" for i in range(n)
+                                                              if tl[i][1] is not None))
     for i, (start, idx) in enumerate(tl):
+        if idx is None:
+            continue
         end = tl[i + 1][0] + FADE if i + 1 < n else dur + 1
+        # fade out when the screen clears next, instead of being covered by another card
+        out = f",fade=t=out:st={tl[i + 1][0]:.2f}:d={FADE}:alpha=1" if i + 1 < n and tl[i + 1][1] is None else ""
         g.append(f"[s{i}]crop={CELL_W}:{CELL_H}:0:{CELL_H * idx},scale={w}:{h}:flags=lanczos,"
-                 f"fade=t=in:st={start:.2f}:d={FADE}:alpha=1[c{i}]")
+                 f"fade=t=in:st={start:.2f}:d={FADE}:alpha=1{out}[c{i}]")
         # slow bob so the card reads as floating, plus a small rise as each card arrives
         y = f"{cy}+5*sin(2*PI*t/4.5)+26*pow(1-min(1,max(0,(t-{start:.2f})/{FADE})),2)"
         g.append(f"[{last}][c{i}]overlay=x={cx}:y='{y}':enable='between(t,{start:.2f},{end:.2f})'[base{i + 1}]")

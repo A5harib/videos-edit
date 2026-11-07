@@ -51,3 +51,11 @@ h1 { margin:0; color:var(--crimson); font-size:58px; line-height:1.12; font-weig
 .bar .lab b { font-size:34px; }
 .bar .track { height:54px; border-radius:8px; background:var(--navy); }
 .bar.red .track { background:var(--crimson); }
+
+/* client photo with a tiny label: <div class="card photo"><img src="img5.jpg"><span class="tag">Aerial view</span></div> */
+@font-face { font-family:"Mont"; src:url("../fonts/Montserrat-Bold.ttf"); }
+.card.photo { padding:0; background:#111; }
+.card.photo img { width:100%; height:100%; object-fit:cover; display:block; }
+.card.photo .tag { position:absolute; left:26px; bottom:26px; font-family:"Mont", Arial, sans-serif;
+        font-size:30px; color:#fff; background:rgba(15,15,15,.58); padding:9px 18px 10px; border-radius:10px;
+        letter-spacing:.4px; }
